@@ -1,8 +1,5 @@
-<div align="center">
-  <img width='100px' alt='sign language for I love you' src="./media/hand-intuit-logo.png">
   <h1>accessibility-snippets</h1>
   <p>VScode Snippets created to help developers write accessible code.</p>
-</div>
 
 ## Features
 
