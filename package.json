@@ -31,7 +31,8 @@
         ]
     },
     "scripts": {
-        "release": "auto shipit -vv"
+        "release": "auto shipit -vv",
+        "labelCheck": "auto pr-check"
     },
     "devDependencies": {
         "@auto-it/all-contributors": "^10.16.6",
