@@ -7,7 +7,7 @@
         "email": "kendall.gassner@yahoo.com"
     },
     "version": "0.0.1",
-    "icon": "./media/hand-intuit-logo.png",
+    "icon": "media/hand-intuit-logo.png",
     "engines": {
         "vscode": "^1.53.0"
     },
