@@ -1,0 +1,27 @@
+{
+  "projectName": "accessibility-snippets",
+  "projectOwner": "intuit",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "kendallgassner",
+      "name": "Kendall Gassner",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15275462?v=4",
+      "profile": "https://github.com/kendallgassner",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "infra"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

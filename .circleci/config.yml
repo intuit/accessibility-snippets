@@ -1,0 +1,67 @@
+version: 2
+
+defaults: &defaults
+  working_directory: ~/accessibility-snippets
+  docker:
+    - image: circleci/node:latest-browsers
+
+jobs:
+  install:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            # Find a cache corresponding to this specific package.json checksum
+            # when this file is changed, this key will fail
+            - accessibility-snippets-{{ .Branch }}-{{ checksum "yarn.lock" }}-{{ checksum ".circleci/config.yml" }}
+            - accessibility-snippets-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - accessibility-snippets-{{ .Branch }}
+            # Find the most recent cache used from any branch
+            - accessibility-snippets-master
+            - accessibility-snippets-
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile
+      - save_cache:
+          key: accessibility-snippets-{{ .Branch }}-{{ checksum "yarn.lock" }}-{{ checksum ".circleci/config.yml" }}
+          paths:
+            - node_modules
+            - ~/.cache/yarn
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+
+  checkLabels:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/accessibility-snippets
+      - run:
+          name: Check SemVer label
+          command: yarn labelCheck --url $CIRCLE_BUILD_URL
+
+  release:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/accessibility-snippets
+      - run: mkdir ~/.ssh/ && echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+      - run:
+          name: Release
+          command: yarn release
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - install
+
+      - checkLabels:
+          requires:
+            - install
+
+      - release:
+          requires:
+            - checkLabels

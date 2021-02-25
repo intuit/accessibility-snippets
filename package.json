@@ -1,0 +1,49 @@
+{
+    "name": "accessibility-snippets",
+    "displayName": "accessibility-snippets",
+    "description": "snippets to help create accessible code",
+    "author": {
+        "name": "Kendall Gassner",
+        "email": "kendall.gassner@yahoo.com"
+    },
+    "version": "0.0.1",
+    "icon": "./media/hand-intuit-logo.png",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "css",
+                "path": "./snippets/css-snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react-snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/react-snippets.code-snippets"
+            }
+        ]
+    },
+    "scripts": {
+        "release": "auto shipit -vv"
+    },
+    "devDependencies": {
+        "@auto-it/all-contributors": "^10.16.6",
+        "@auto-it/vscode": "^10.16.6",
+        "auto": "^10.16.6"
+    },
+    "repository": "kgassner/accessibility-snippets",
+    "auto": {
+        "plugins": [
+            "npm",
+            "all-contributors",
+            "vscode"
+        ]
+    }
+}

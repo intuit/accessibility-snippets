@@ -1,0 +1,15 @@
+{
+    "transition": {
+        "prefix": [
+            "transition",
+        ],
+        "body": [
+            "transition: \t$1",
+            "",
+            "@media screen and (prefers-reduced-motion) {",
+            "transition: \t$0",
+            "}"
+        ],
+        "description": "Adds reduced motion media query anytime transition is added to css file"
+    }
+}
