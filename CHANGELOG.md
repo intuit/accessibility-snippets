@@ -1,3 +1,15 @@
+# v0.0.10 (Fri Feb 26 2021)
+
+#### 🐛 Bug Fix
+
+- fix readme [#6](https://github.com/intuit/accessibility-snippets/pull/6) ([@kendallgassner](https://github.com/kendallgassner))
+
+#### Authors: 1
+
+- Kendall Gassner ([@kendallgassner](https://github.com/kendallgassner))
+
+---
+
 # v0.0.8 (Thu Feb 25 2021)
 
 #### 🐛 Bug Fix
