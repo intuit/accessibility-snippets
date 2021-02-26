@@ -40,7 +40,7 @@
         "@auto-it/vscode": "^10.16.6",
         "auto": "^10.16.6"
     },
-    "repository": "kgassner/accessibility-snippets",
+    "repository": "intuit/accessibility-snippets",
     "auto": {
         "plugins": [
             "npm",
