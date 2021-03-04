@@ -1,3 +1,15 @@
+# v0.0.12 (Thu Mar 04 2021)
+
+#### 🐛 Bug Fix
+
+- setup all Contributors [#8](https://github.com/intuit/accessibility-snippets/pull/8) ([@kendallgassner](https://github.com/kendallgassner))
+
+#### Authors: 1
+
+- Kendall Gassner ([@kendallgassner](https://github.com/kendallgassner))
+
+---
+
 # v0.0.10 (Fri Feb 26 2021)
 
 #### 🐛 Bug Fix
