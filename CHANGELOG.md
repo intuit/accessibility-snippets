@@ -1,3 +1,15 @@
+# v0.0.14 (Fri Mar 05 2021)
+
+#### 🐛 Bug Fix
+
+- fix snippet formatting [#9](https://github.com/intuit/accessibility-snippets/pull/9) ([@kendallgassner](https://github.com/kendallgassner))
+
+#### Authors: 1
+
+- Kendall Gassner ([@kendallgassner](https://github.com/kendallgassner))
+
+---
+
 # v0.0.12 (Thu Mar 04 2021)
 
 #### 🐛 Bug Fix
