@@ -5,8 +5,8 @@
         ],
         "body": [
             "role='dialog'",
-            "aria-labelledby='$2'",
-            "aria-describedby='$1'",
+            "aria-labelledby='$1'",
+            "aria-describedby='$2'",
             "aria-modal={true}",
             ""
         ],
@@ -19,7 +19,7 @@
         "body": [
             "role='alert'",
             "aria-live='$1'",
-            "aria-atomic={$0}",
+            "aria-atomic={$2}",
             ""
         ],
         "description": "Add `role='alert'` to a node containing an alert message. Setting role='alert' automatically sets aria-live='assertive' and aria-atomic='true'."
@@ -31,7 +31,7 @@
         "body": [
             "role='alertdialog'",
             "aria-labelledby='$1'",
-            "aria-describedby='$0'",
+            "aria-describedby='$2'",
             "aria-modal={true}",
             ""
         ],
@@ -44,7 +44,7 @@
         "body": [
             "role='feed'",
             "aria-labelledby='$1'",
-            "aria-busy={$0}",
+            "aria-busy={$2}",
             ""
         ],
         "description": "Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed."
@@ -55,11 +55,11 @@
         ],
         "body": [
             "role='article'",
-            "tabindex={0}",
-            "aria-labelledby='$3'",
+            "tabIndex={0}",
+            "aria-labelledby='$1'",
             "aria-describedby='$2'",
-            "aria-posinset={$1}",
-            "aria-setsize={$0}",
+            "aria-posinset={$3}",
+            "aria-setsize={$4}",
             ""
         ],
         "description": "Add `role='article'` to a node that can easily stand on its own separate from the main content of the page. An example is a newspaper article or a forum post. Use `aria-posinset` to indicate of the article within the feed. Use `aria-setsize` to indicate how many articles are in the feed."
@@ -70,9 +70,9 @@
         ],
         "body": [
             "role='button'",
-            "tabindex={0}",
+            "tabIndex={0}",
             "aria-pressed={$1}",
-            "aria-expanded={$0}",
+            "aria-expanded={$2}",
             ""
         ],
         "description": "Add `role='button'` on a clickable element that triggers a response when activated by a user. Add `aria-pressed` when a button can toggle 'on' or 'off'. Add `aria-expanded` if a button triggers another node to expand or collapse."
@@ -83,8 +83,8 @@
         ],
         "body": [
             "role='checkbox'",
-            "tabindex={0}",
-            "aria-checked={$0}",
+            "tabIndex={0}",
+            "aria-checked={$1}",
             ""
         ],
         "description": "Add `role='checkbox'` to a checkable interactive control. Add `aria-checked` to indicate the state of the checkbox."
@@ -95,9 +95,9 @@
         ],
         "body": [
             "role='link'",
-            "tabindex={0}",
+            "tabIndex={0}",
             "alt='$1'", // Defines the accessible name of the link.
-            "aria-label='$0'", // Defines the accessible name of the link.
+            "aria-label='$2'", // Defines the accessible name of the link.
             ""
         ],
         "description": "Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label."
@@ -108,8 +108,8 @@
         ],
         "body": [
             "role='radio'",
-            "tabindex={$0}",
-            "aria-checked={$0}",
+            "tabIndex={$1}",
+            "aria-checked={$2}",
             ""
         ],
         "description": "Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox."
@@ -120,13 +120,13 @@
         ],
         "body": [
             "role='slider'",
-            "tabindex={0}",
-            "aria-orientation='$5'",
-            "aria-valuemax={$4}",
+            "tabIndex={0}",
+            "aria-orientation='$1'",
+            "aria-valuemax={$2}",
             "aria-valuemin={$3}",
-            "aria-valuenow={$2}",
-            "aria-valuetext='$1'",
-            "aria-labelledby='$0'",
+            "aria-valuenow={$4}",
+            "aria-valuetext='$5'",
+            "aria-labelledby='$6'",
             ""
         ],
         "description": "Add `role='slider'` to allow users to select from a certain range. Add `aria-orientation` to indicate what direction the slider is oriented in. Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. If the value is not represented by a number add `aria-valuetext` in place of aria-valuenow."
@@ -137,9 +137,9 @@
         ],
         "body": [
             "role='combobox'",
-            "aria-haspopup='$2'",
-            "aria-owns='$1'",
-            "aria-expanded={$0}",
+            "aria-haspopup='$1'",
+            "aria-owns='$2'",
+            "aria-expanded={$3}",
             ""
         ],
         "description": "Add `role='combobox'` to a composite widget containing a single-line textbox and another element such as listbox. Add `aria-haspopup` if the combobox contains a popup. Add `aria-expanded` if the combobox expands or collapses a node. Add `aria-owns` to indicate which elements the combobox owns."
@@ -150,13 +150,13 @@
         ],
         "body": [
             "role='textbox'",
-            "aria-activedescendant='$6'",
-            "aria-multiline={$5}",
-            "aria-required={$4}",
-            "aria-readonly={$3}",
-            "aria-labelledby='$2'",
-            "aria-placeholder='$1'",
-            "aria-autocomplete='$0'",
+            "aria-activedescendant='$1'",
+            "aria-multiline={$2}",
+            "aria-required={$3}",
+            "aria-readonly={$4}",
+            "aria-labelledby='$5'",
+            "aria-placeholder='$6'",
+            "aria-autocomplete='$7'",
             ""
         ],
         "description": "Use `role='textbox'` on elements that allow input of free-form text. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required."
@@ -168,7 +168,7 @@
         "body": [
             "role='switch'",
             "aria-checked={$1}",
-            "aria-readonly={$0}",
+            "aria-readonly={$2}",
             ""
         ],
         "description": "Use `role='switch'` on checkboxes that represent an 'on' or 'off' state. Add `aria-checked` to indicate whether component is on or off. Add `aria-required` if the field is required."
