@@ -1,12 +1,17 @@
+<div align="center">
+  <img src="./media/hand-intuit-logo.png" alt="Accessibility snippets logo" width="100"/>
   <h1>accessibility-snippets</h1>
+  
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
   <p>VScode Snippets created to help developers write accessible code.</p>
+</div>
 
 ## Features
 
-### Css snippet
+### CSS snippet
 
 - reduced motion - adds a reduced motion snippet with prefix `transition`
 
