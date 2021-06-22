@@ -8,6 +8,10 @@
   - Describes what you would like to happen and how the enhancement will be useful.
   - Provide the version of the plugin you are using.
 
+## Installation
+- In order to contribute you will need to fork this repo and install locally. 
+- Once you have the repo locally run `yarn` to install all necessary dependencies.
+
 ## Pull Requests
 - Maintain quality.
 - Please add new tests to the code base that test the new feature or the bug you are fixing. 
