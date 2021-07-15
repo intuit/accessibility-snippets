@@ -69,8 +69,7 @@
             "BannerAria",
         ],
         "body":[
-            "role='banner'",
-            "tabIndex={0}"
+            "role='banner'"
         ],
         "description":"Add `role='banner'` to define a banner landmark to assistive technologies."
     },
