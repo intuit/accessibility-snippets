@@ -98,6 +98,18 @@
         ],
         "description": "Add `role='checkbox'` to a checkable interactive control. Add `aria-checked` to indicate the state of the checkbox."
     },
+    "DocumentAria": {
+        "prefix": [
+            "DocumentAria"
+        ],
+        "body": [
+            "role='document'",
+            "tabIndex={0}",
+            "aria-expanded={$1}",
+            ""
+        ],
+        "description": "Add `role='document'` to application or other interactive widget role to switch to browse or read mode. Add `aria-expanded` to indicate whether the document is currently expanded or collapsed if the document element is collapsible."
+    },
     "LinkAria": {
         "prefix": [
             "LinkAria",

@@ -33,6 +33,8 @@
 
 - **DialogAria** - Add `role='dialog'` to a window separate from the rest of the webpage like a modal.
 
+- **DocumentAria** - Add `role='document'` to application or other interactive widget role to switch to browse or read mode. Add `aria-expanded` to indicate whether the document is currently expanded or collapsed if the document element is collapsible.
+
 - **FeedAria** - Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed.
 
 - **LinkAria** - Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label.
