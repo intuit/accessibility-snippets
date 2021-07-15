@@ -64,6 +64,15 @@
         ],
         "description": "Add `role='article'` to a node that can easily stand on its own separate from the main content of the page. An example is a newspaper article or a forum post. Use `aria-posinset` to indicate of the article within the feed. Use `aria-setsize` to indicate how many articles are in the feed."
     },
+    "BannerAria":{
+        "prefix": [
+            "BannerAria",
+        ],
+        "body":[
+            "role='banner'"
+        ],
+        "description":"Add `role='banner'` to define a banner landmark to assistive technologies."
+    },
     "ButtonAria": {
         "prefix": [
             "ButtonAria",
