@@ -12,6 +12,15 @@
         ],
         "description": "Adds aria attributes for a dialog. A dialog is a window separate from the rest of the webpage like a modal."
     },
+    "SearchAria":{
+        "prefix": [
+            "SearchAria",
+        ],
+        "body": [
+            "role='search'",
+        ],
+        "description":"Add `role='search'` to represent the same element type as an HTML input element that includes type=”search”."
+    },
     "AlertAria": {
         "prefix": [
             "AlertAria",
