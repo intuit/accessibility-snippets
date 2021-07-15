@@ -6,7 +6,7 @@
         "name": "Kendall Gassner",
         "email": "kendall.gassner@yahoo.com"
     },
-    "version": "0.2.0",
+    "version": "0.3.0",
     "icon": "media/hand-intuit-logo.png",
     "engines": {
         "vscode": "^1.53.0"
@@ -42,7 +42,7 @@
     },
     "repository": {
         "type": "git",
-         "url": "https://github.com/intuit/accessibility-snippets.git"
+        "url": "https://github.com/intuit/accessibility-snippets.git"
     },
     "auto": {
         "plugins": [
