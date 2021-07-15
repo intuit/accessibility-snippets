@@ -18,6 +18,7 @@
         ],
         "body": [
             "role='search'",
+            "role='searchbox'",
         ],
         "description":"Add `role='search'` to represent the same element type as an HTML input element that includes type=”search”."
     },
