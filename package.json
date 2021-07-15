@@ -40,7 +40,10 @@
         "@auto-it/vscode": "^10.16.6",
         "auto": "^10.16.6"
     },
-    "repository": "intuit/accessibility-snippets",
+    "repository": {
+        "type": "git",
+         "url": "https://github.com/intuit/accessibility-snippets.git"
+    },
     "auto": {
         "plugins": [
             "npm",
