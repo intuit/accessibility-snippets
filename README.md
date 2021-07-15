@@ -10,7 +10,7 @@
 </div>
 
 ## Features
-
+ 
 ### CSS snippet
 
 - reduced motion - adds a reduced motion snippet with prefix `transition`
