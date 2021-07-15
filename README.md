@@ -23,7 +23,7 @@
 
 - **ArticleAria** - Add `role='article'` to a node that can easily stand on its own separate from the main content of the page. An example is a newspaper article or a forum post. Use `aria-posinset` to indicate of the article within the feed. Use `aria-setsize` to indicate how many articles are in the feed.
 
-- **BannerAria** - Add `role='banner'` to define a banner landmark to assistive technologies.
+- **BannerAria** - Add `role='banner'` to define a banner landmark to assistive technologies. A banner landmark is informative content frequently placed at the beginning of the page.
 
 - **ButtonAria** - Add `role='button'` on a clickable element that triggers a response when activated by a user. Add `aria-pressed` when a button can toggle 'on' or 'off'. Add `aria-expanded` if a button triggers another node to expand or collapse.
 
