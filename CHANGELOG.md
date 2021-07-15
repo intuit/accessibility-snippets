@@ -1,3 +1,27 @@
+# v0.1.0 (Thu Jul 15 2021)
+
+#### 🚀 Enhancement
+
+- Add ARIA:document role [#23](https://github.com/intuit/accessibility-snippets/pull/23) ([@raych2](https://github.com/raych2))
+
+#### 🐛 Bug Fix
+
+- Added ARIA:banner role [#21](https://github.com/intuit/accessibility-snippets/pull/21) ([@developer-diganta](https://github.com/developer-diganta))
+- Updating README to include logo mark [#11](https://github.com/intuit/accessibility-snippets/pull/11) ([@kharrop](https://github.com/kharrop))
+
+#### ⚠️ Pushed to `master`
+
+- Update CONTRBUTING.md ([@kendallgassner](https://github.com/kendallgassner))
+
+#### Authors: 4
+
+- Diganta Kr Banik ([@developer-diganta](https://github.com/developer-diganta))
+- Kelly Harrop ([@kharrop](https://github.com/kharrop))
+- Kendall Gassner ([@kendallgassner](https://github.com/kendallgassner))
+- Rachel Tongco ([@raych2](https://github.com/raych2))
+
+---
+
 # v0.0.14 (Fri Mar 05 2021)
 
 #### 🐛 Bug Fix
