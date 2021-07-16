@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- <img src="./media/hand-intuit-logo.png" alt="Accessibility snippets logo" width="100"/> -->
+  <img src="./media/hand-intuit-logo.png" alt="Accessibility snippets logo" width="100"/>
   <h1>accessibility-snippets</h1>
   
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -37,7 +37,7 @@
 
 - **RadioAria** - Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox.
 
-- **TableAria** - Add `role='table'` to a 
+- **TableAria** - Add `role='table'` to allow us represents tabular data information presented in a two-dimensional table comprised of rows and columns of cells containing data.
 
 - **SliderAria** - Add `role='slider'` to allow users to select from a certain range. Add `aria-orientation` to indicate what direction the slider is oriented in. Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. If the value is not represented by a number add `aria-valuetext` in place of aria-valuenow.
 
