@@ -114,6 +114,18 @@
         ],
         "description": "Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox."
     },
+    "TableAria": {
+        "prefix": [
+            "TableAria",
+        ],
+        "body": [
+            "aria-colcount=''",
+            "aria-rowcount={-1}",
+            "",
+            ""
+        ],
+        "description": "Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox."
+    },
     "SliderAria": {
         "prefix": [
             "SliderAria",
