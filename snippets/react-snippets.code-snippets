@@ -135,6 +135,35 @@
         ],
         "description": "Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox."
     },
+    "TableAria": {
+        "prefix": [
+            "TableAria",
+        ],
+        "body": [
+            "aria-colcount=''",
+            "aria-rowcount={-1}",
+            "align={}",
+            "border={$2}",
+            "frame='{$1}'",
+            "width='{$2}'",
+            "bgcolor='{$1}'",
+        ],
+        "description": "Add `role='table'` to allow us represents tabular data information presented in a two-dimensional table comprised of rows and columns of cells containing data. "
+    },
+    "CellAria": {
+        "prefix": [
+            "CellAria",
+        ],
+        "body": [
+            "role='cell'",
+            "aria-colspan='{$1}'",
+            "aria-rowspan='{$2}'",
+            "aria-colindex={$3}",
+            "aria-rowindex={$4}",
+            ""
+        ],
+        "description": "Adds `role='cell'` aria attributes for a cell. A cell is identified as an element in a tabular container that do not contain column or row header information. “cell” are only valid within a construct that simulates a standard data table."
+    },
     "SliderAria": {
         "prefix": [
             "SliderAria",
