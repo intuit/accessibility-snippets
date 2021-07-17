@@ -129,6 +129,20 @@
         ],
         "description": "Add `role='table'` to allow us represents tabular data information presented in a two-dimensional table comprised of rows and columns of cells containing data. "
     },
+    "CellAria": {
+        "prefix": [
+            "CellAria",
+        ],
+        "body": [
+            "role='cell'",
+            "aria-colspan='{$1}'",
+            "aria-rowspan='{$2}'",
+            "aria-colindex={$3}",
+            "aria-rowindex={$4}",
+            ""
+        ],
+        "description": "Adds `role='cell'` aria attributes for a cell. A cell is identified as an element in a tabular container that do not contain column or row header information. “cell” are only valid within a construct that simulates a standard data table."
+    },
     "SliderAria": {
         "prefix": [
             "SliderAria",
