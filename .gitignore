@@ -4,3 +4,4 @@ dist/
 node_modules/
 coverage
 .env
+accessibility-snippets-0.0.15.vsix
