@@ -119,13 +119,11 @@
             "TableAria",
         ],
         "body": [
-            "aria-colcount=''",
+            "role='table'",
+            "aria-colcount='{$1}'",
             "aria-rowcount={-1}",
-            "align={}",
-            "border={$2}",
-            "frame='{$1}'",
-            "width='{$2}'",
-            "bgcolor='{$1}'",
+            "aria-label ={}",
+            "aria-describedby={$2}", 
         ],
         "description": "Add `role='table'` to allow us represents tabular data information presented in a two-dimensional table comprised of rows and columns of cells containing data. "
     },
