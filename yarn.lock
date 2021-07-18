@@ -2,24 +2,6 @@
 # yarn lockfile v1
 
 
-"@auto-it/all-contributors@^10.16.6":
-  "integrity" "sha512-JBxn/cyNorBcQTy+qi5C2Z8RMUbwqQaz1eG2nHtCJRBUVtGjODSZ0/+aRG6sB8j8tmQ0mP1fMMSe76bBQHyxBQ=="
-  "resolved" "https://registry.npmjs.org/@auto-it/all-contributors/-/all-contributors-10.16.8.tgz"
-  "version" "10.16.8"
-  dependencies:
-    "@auto-it/bot-list" "10.16.8"
-    "@auto-it/core" "10.16.8"
-    "@octokit/rest" "^18.0.0"
-    "all-contributors-cli" "6.19.0"
-    "anymatch" "^3.1.1"
-    "await-to-js" "^2.1.1"
-    "endent" "^2.0.1"
-    "env-ci" "^5.0.1"
-    "fp-ts" "^2.5.3"
-    "fromentries" "^1.2.0"
-    "io-ts" "^2.1.2"
-    "tslib" "2.1.0"
-
 "@auto-it/bot-list@10.16.6":
   "integrity" "sha512-cnLMvDzLxMAHkSQdCybttViV76fIc6D9zJAQybDbDKLvg59WEzuimhrOqr5A71smkzKXUoFHFgVh0i9318sxSQ=="
   "resolved" "https://registry.npmjs.org/@auto-it/bot-list/-/bot-list-10.16.6.tgz"
@@ -152,19 +134,6 @@
     "fp-ts" "^2.5.3"
     "io-ts" "^2.1.2"
     "tslib" "2.1.0"
-
-"@auto-it/vscode@^10.16.6":
-  "integrity" "sha512-6PzrEFEI6B/nsDG5pSVY2jaYaGU/VSwHk2uc9+ayLmtPBTRmDskQ4KmItGuVZzmB/xe0xxy+GS3ztvBbomocUg=="
-  "resolved" "https://registry.npmjs.org/@auto-it/vscode/-/vscode-10.16.6.tgz"
-  "version" "10.16.6"
-  dependencies:
-    "@auto-it/core" "10.16.6"
-    "@auto-it/package-json-utils" "10.16.6"
-    "fp-ts" "^2.5.3"
-    "io-ts" "^2.1.2"
-    "semver" "^7.0.0"
-    "tslib" "2.1.0"
-    "vsce" "^1.83.0"
 
 "@babel/code-frame@^7.0.0":
   "integrity" "sha512-HV1Cm0Q3ZrpCR93tkWOYiuYIgLxZXZFVG2VgK+MBWjUqZTundupbfx2aXarXuw5Ko5aMcjtJgbSs4vUGBS5v6g=="
@@ -456,23 +425,6 @@
   "integrity" "sha1-0IiFvmubv5Q5/gh8dihyRfCoFFA="
   "resolved" "https://registry.npmjs.org/author-regex/-/author-regex-1.0.0.tgz"
   "version" "1.0.0"
-
-"auto@^10.16.6":
-  "integrity" "sha512-prDo3GE8Gc88NTTBBVph0TgpbUspjTSXYU63S9zy8yN9LFrJESmhsN4umLvXdn+xUXn+Ts6QubDfDsSMYvLxcQ=="
-  "resolved" "https://registry.npmjs.org/auto/-/auto-10.16.6.tgz"
-  "version" "10.16.6"
-  dependencies:
-    "@auto-it/core" "10.16.6"
-    "@auto-it/npm" "10.16.6"
-    "@auto-it/released" "10.16.6"
-    "await-to-js" "^2.1.1"
-    "chalk" "^4.0.0"
-    "command-line-application" "^0.10.1"
-    "endent" "^2.0.1"
-    "module-alias" "^2.2.2"
-    "signale" "^1.4.0"
-    "terminal-link" "^2.1.1"
-    "tslib" "2.1.0"
 
 "await-to-js@^2.1.1":
   "integrity" "sha512-CHBC6gQGCIzjZ09tJ+XmpQoZOn4GdWePB4qUweCaKNJ0D3f115YdhmYVTZ4rMVpiJ3cFzZcTYK1VMYEICV4YXw=="
