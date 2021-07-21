@@ -21,6 +21,8 @@
 
 - **AlertDialogAria** - Add `role='alertDialog'` when an alert is urgent and demands immediate attention. Only use alertDialog when the alert message has associated interactive controls.
 
+**ApplicationAria** - Add `role='application' to a HTML element and all of its children will be treated similar to a desktop application. No traditional HTML interpretation techniques will be used.
+
 - **ArticleAria** - Add `role='article'` to a node that can easily stand on its own separate from the main content of the page. An example is a newspaper article or a forum post. Use `aria-posinset` to indicate of the article within the feed. Use `aria-setsize` to indicate how many articles are in the feed.
 
 - **BannerAria** - Add `role='banner'` to define a banner landmark to assistive technologies. A banner landmark is informative content frequently placed at the beginning of the page.

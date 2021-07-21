@@ -49,6 +49,16 @@
         ],
         "description": "Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed."
     },
+    "ApplicationAria":{
+        "prefix": [
+            "ApplicationAria",
+        ],
+        "body": [
+            "role='application'",
+            ""
+        ],
+        "description": "Add `role='application' to a HTML element and all of its children will be treated similar to a desktop application, and no traditional HTML interpretation techniques will be used."
+    },
     "ArticleAria": {
         "prefix": [
             "ArticleAria",
