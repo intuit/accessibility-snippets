@@ -45,6 +45,8 @@
 
 - **SwitchAria** - Use `role='switch'` on checkboxes that represent an 'on' or 'off' state. Add `aria-checked` to indicate whether component is on or off. Add `aria-required` if the field is required.
 
+- **TabAria** - Add `role='tab'` to control the visibility of an associated element with the `tabpanel` role. Elements with the role `tab` must either be a child of an element with the `tablist` role, or have their `id` part of the `aria-owns` property of a `tablist`. Set attribute `aria-selected` to `true` if element with `tab` role is selected or active, otherwise it should be set to `false`. Set all non-active elements to `tabIndex=-1` and set the active element to `tabIndex=0`. Add `aria-controls` to indicate the `id` of an element with `tabpanel` role.
+
 - **TextboxAria** - Use `role='textbox'` on elements that allow input of free-form text. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required.
 
 ## Rules of ARIA
