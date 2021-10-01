@@ -47,7 +47,7 @@
 
 - **ListAria** - Add `role='list'` to elements that act as list.
 
-- **ListItemAria** - Add `role='link'` to elements that act as list-item contained inside the list.
+- **ListItemAria** - Add `role='list-item'` to elements that act as list-item contained inside the list.
 
 - **LoadingAria** - Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed.
 
