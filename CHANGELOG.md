@@ -1,3 +1,16 @@
+# v0.15.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Add Aria: Image Role [#48](https://github.com/intuit/accessibility-snippets/pull/48) (amcginnis@rsglab.com [@aylinmarie](https://github.com/aylinmarie))
+
+#### Authors: 2
+
+- Aylin Atkins ([@aylinmarie](https://github.com/aylinmarie))
+- Aylin McGinnis (amcginnis@rsglab.com)
+
+---
+
 # v0.13.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
