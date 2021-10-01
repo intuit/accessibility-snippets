@@ -156,6 +156,20 @@
         ],
         "description": "Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox."
     },
+    "TabAria": {
+        "prefix": [
+            "TabAria",
+        ],
+        "body": [
+            "role='tab'",
+            "aria-selected='true'",
+            "aria-controls='tabpanel-id'",
+            "id='tab-id'",
+            "tabIndex={0}",
+            ""
+        ],
+        "description": "Add `role='tab'` to control the visibility of an associated element with the `tabpanel` role. Elements with the role `tab` must either be a child of an element with the `tablist` role, or have their `id` part of the `aria-owns` property of a `tablist`. Set attribute `aria-selected` to `true` if element with `tab` role is selected or active, otherwise it should be set to `false`. Set all non-active elements to `tabIndex=-1` and set the active element to `tabIndex=0`. Add `aria-controls` to indicate the `id` of an element with `tabpanel` role."
+    },
     "SliderAria": {
         "prefix": [
             "SliderAria",
