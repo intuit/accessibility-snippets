@@ -1,3 +1,65 @@
+# v0.19.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Adding contrast to csss accessibility snippets [#45](https://github.com/intuit/accessibility-snippets/pull/45) ([@simin4950](https://github.com/simin4950))
+
+#### Authors: 1
+
+- Simin Savani ([@simin4950](https://github.com/simin4950))
+
+---
+
+# v0.17.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Added CSS snippet: prefers-color-scheme: dark [#49](https://github.com/intuit/accessibility-snippets/pull/49) ([@tomarviii88](https://github.com/tomarviii88))
+
+#### Authors: 1
+
+- Ritika Tomar ([@tomarviii88](https://github.com/tomarviii88))
+
+---
+
+# v0.15.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Add Aria: Image Role [#48](https://github.com/intuit/accessibility-snippets/pull/48) (amcginnis@rsglab.com [@aylinmarie](https://github.com/aylinmarie))
+
+#### Authors: 2
+
+- Aylin Atkins ([@aylinmarie](https://github.com/aylinmarie))
+- Aylin McGinnis (amcginnis@rsglab.com)
+
+---
+
+# v0.13.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- OSD Contribution : Add ARIA:Cell Role [#43](https://github.com/intuit/accessibility-snippets/pull/43) (sramkumar@microsoft.com [@Saran51](https://github.com/Saran51))
+
+#### Authors: 2
+
+- [@Saran51](https://github.com/Saran51)
+- Saranya Ramkumar (sramkumar@microsoft.com)
+
+---
+
+# v0.11.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Added ARIA: Searchbox role [#35](https://github.com/intuit/accessibility-snippets/pull/35) ([@jeffreyclu](https://github.com/jeffreyclu))
+
+#### Authors: 1
+
+- Jeffrey Lu ([@jeffreyclu](https://github.com/jeffreyclu))
+
+---
+
 # v0.1.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
