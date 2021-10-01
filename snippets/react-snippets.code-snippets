@@ -131,9 +131,8 @@
             "role='status'", // Live region role with an implicit aria-live value of polite that notifies assistive technology when content has been updated. Must be present in the DOM before the loading indicator has rendered.
             "aria-live='polite'", // Used in conjunction with live region role of status for better assistive technology support.
             "aria-label='Loading'", // Defines the accessible name of the loading indicator if copy is not provided.
-            "aria-busy='$1'", // Boolean value that should be true while loading indicator is present. 
         ],
-        "description": "Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. If the loading indicator is visible, set `aria-busy` to `true`. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed."
+        "description": "Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed."
     },
     "RadioAria": {
         "prefix": [
