@@ -38,7 +38,8 @@
     "devDependencies": {
         "@auto-it/all-contributors": "^10.16.6",
         "@auto-it/vscode": "^10.16.6",
-        "auto": "^10.16.6"
+        "auto": "^10.16.6",
+        "jest": "^27.2.4"
     },
     "repository": {
         "type": "git",
