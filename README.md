@@ -39,6 +39,8 @@
 
 - **FeedAria** - Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed.
 
+- **FigureAria** - Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Add `aria-labelledby` when the text is a concise label. Add `aria-describedby` when the text is a longer description. Add `aria-label` if there is no element containing text that could serve as a label.
+
 - **ImageAria** - Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role.
 
 - **LinkAria** - Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label.

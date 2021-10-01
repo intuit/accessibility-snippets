@@ -70,7 +70,7 @@
             "aria-describedby='$3'",
             ""
         ],
-        "description": "Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Elements can be one or more images, code snippets, or other content that puts across information in a different way to a regular flow of text."
+        "description": "Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Elements can be one or more images, code snippets, or other content that puts across information in a different way to a regular flow of text. Add `aria-labelledby` when the text is a concise label. Add `aria-describedby` when the text is a longer description. Add `aria-label` if there is no element containing text that could serve as a label."
     },
     "ArticleAria": {
         "prefix": [
