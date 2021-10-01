@@ -15,7 +15,7 @@
 
     "contrast": {
         "prefix": [
-            "less-contrast",
+            "less-contrast"
         ],
         "body": [
             "@media (prefers-contrast: less) {", 
