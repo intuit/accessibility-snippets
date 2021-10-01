@@ -13,17 +13,11 @@
 
 ### CSS snippet
 
-- reduced motion - adds a reduced motion snippet with prefix `transition`
-🚨 Safari Only Queries  🚨 
-- less-contrast - adds less contrast media snippet with prefix `less-contrast`
-
-- dark-color-scheme - adds dark prefers-color-scheme snippet with prefix `darkColorScheme`
-
 | Snippet        |  Description  | Note  |
-| :-------------| :------------|:------------|
-| reduced motion     |  Adds a reduced motion snippet with prefix `transition` | |
+| :-------------| :---------------|:---------------|
+| reduced motion     |  Adds a reduced motion snippet with prefix `transition` | N/A|
 | less-contrast    |  Adds less contrast media snippet with prefix `less-contrast` | 🚨 Safari Only Queries  🚨    |
-| dark-color-scheme      |  Adds dark prefers-color-scheme snippet with prefix `darkColorScheme` | 🚨 Safari Only Queries  🚨  |    | 
+| dark-color-scheme      |  Adds dark prefers-color-scheme snippet with prefix `darkColorScheme` | 🚨 Safari Only Queries  🚨  |
 
 ### React Aria Snippets
 
