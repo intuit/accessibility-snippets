@@ -1,3 +1,16 @@
+# v0.13.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- OSD Contribution : Add ARIA:Cell Role [#43](https://github.com/intuit/accessibility-snippets/pull/43) (sramkumar@microsoft.com [@Saran51](https://github.com/Saran51))
+
+#### Authors: 2
+
+- [@Saran51](https://github.com/Saran51)
+- Saranya Ramkumar (sramkumar@microsoft.com)
+
+---
+
 # v0.11.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
