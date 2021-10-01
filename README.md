@@ -14,7 +14,8 @@
 ### CSS snippet
 
 - reduced motion - adds a reduced motion snippet with prefix `transition`
-- less-contrast - adds less contrast snippet with prefix `less-contrast`
+🚨 Safari Only Queries  🚨 
+- less-contrast - adds less contrast media snippet with prefix `less-contrast`
 
 ### React Aria Snippets
 
