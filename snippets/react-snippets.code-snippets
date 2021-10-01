@@ -207,5 +207,15 @@
             ""
         ],
         "description": "Use `role='switch'` on checkboxes that represent an 'on' or 'off' state. Add `aria-checked` to indicate whether component is on or off. Add `aria-required` if the field is required."
-    }
+    },
+    "SearchboxAria" : {
+        "prefix": [
+            "SearchboxAria"
+        ],
+        "body": [
+            "role='searchbox'",
+            ""
+        ],
+        "description": "Add `role='searchbox'` to a textbox intended for specifying search criteria."
+    },
 }
