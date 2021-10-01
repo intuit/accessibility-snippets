@@ -1,3 +1,15 @@
+# v0.17.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Added CSS snippet: prefers-color-scheme: dark [#49](https://github.com/intuit/accessibility-snippets/pull/49) ([@tomarviii88](https://github.com/tomarviii88))
+
+#### Authors: 1
+
+- Ritika Tomar ([@tomarviii88](https://github.com/tomarviii88))
+
+---
+
 # v0.15.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
