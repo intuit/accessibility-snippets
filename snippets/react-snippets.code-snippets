@@ -59,6 +59,19 @@
         ],
         "description": "Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role."
     },
+    "FigureAria": {
+        "prefix": [
+            "FigureAria",
+        ],
+        "body": [
+            "role='figure'",
+            "aria-label='$1'",
+            "aria-labelledby='$2'",
+            "aria-describedby='$3'",
+            ""
+        ],
+        "description": "Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role."
+    },
     "ArticleAria": {
         "prefix": [
             "ArticleAria",

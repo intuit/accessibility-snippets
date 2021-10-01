@@ -78,7 +78,18 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "bolu-tife",
+      "name": "bolu-tife",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59070723?v=4",
+      "profile": "https://github.com/bolu-tife",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  
+  "contributorsPerLine": 8
 }
