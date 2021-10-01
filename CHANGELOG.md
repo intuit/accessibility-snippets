@@ -1,3 +1,27 @@
+# v0.19.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Adding contrast to csss accessibility snippets [#45](https://github.com/intuit/accessibility-snippets/pull/45) ([@simin4950](https://github.com/simin4950))
+
+#### Authors: 1
+
+- Simin Savani ([@simin4950](https://github.com/simin4950))
+
+---
+
+# v0.17.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Added CSS snippet: prefers-color-scheme: dark [#49](https://github.com/intuit/accessibility-snippets/pull/49) ([@tomarviii88](https://github.com/tomarviii88))
+
+#### Authors: 1
+
+- Ritika Tomar ([@tomarviii88](https://github.com/tomarviii88))
+
+---
+
 # v0.15.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement

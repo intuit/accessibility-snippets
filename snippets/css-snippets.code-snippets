@@ -1,15 +1,31 @@
 {
-  "transition": {
-    "prefix": ["transition"],
-    "body": [
-      "transition: \t$1",
-      "",
-      "@media screen and (prefers-reduced-motion) {",
-      "transition: \t$0",
-      "}"
-    ],
-    "description": "Adds reduced motion media query anytime transition is added to css file"
-  },
+    "transition": {
+        "prefix": [
+            "transition",
+        ],
+        "body": [
+            "transition: \t$1",
+            "",
+            "@media screen and (prefers-reduced-motion) {",
+            "transition: \t$0",
+            "}"
+        ],
+        "description": "Adds reduced motion media query anytime transition is added to css file"
+    },
+
+    "contrast": {
+        "prefix": [
+            "less-contrast",
+        ],
+        "body": [
+            "@media (prefers-contrast: less) {", 
+            "\t$0",
+            "}"
+
+        ],
+        "description": "Detects if user has requested that the web content is presented with less constrast. Note that this is only supported on Safari."
+    },
+    
   "darkColorScheme": {
     "prefix": ["darkColorScheme"],
     "body": [
