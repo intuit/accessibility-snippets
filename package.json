@@ -32,7 +32,8 @@
     },
     "scripts": {
         "release": "auto shipit -vv",
-        "labelCheck": "auto pr-check"
+        "labelCheck": "auto pr-check",
+        "test": "jest"
     },
     "publisher": "accessibility-snippets",
     "devDependencies": {
