@@ -1,7 +1,7 @@
 {
     "AlertAria": {
         "prefix": [
-            "AlertAria",
+            "AlertAria"
         ],
         "body": [
             "role='alert'",
@@ -13,7 +13,7 @@
     },
     "AlertDialogAria": {
         "prefix": [
-            "AlertDialogAria",
+            "AlertDialogAria"
         ],
         "body": [
             "role='alertdialog'",
@@ -26,7 +26,7 @@
     },
     "ArticleAria": {
         "prefix": [
-            "ArticleAria",
+            "ArticleAria"
         ],
         "body": [
             "role='article'",
@@ -41,7 +41,7 @@
     },
     "BannerAria":{
         "prefix": [
-            "BannerAria",
+            "BannerAria"
         ],
         "body":[
             "role='banner'"
@@ -50,7 +50,7 @@
     },
     "ButtonAria": {
         "prefix": [
-            "ButtonAria",
+            "ButtonAria"
         ],
         "body": [
             "role='button'",
@@ -63,7 +63,7 @@
     },
     "CellAria": {
         "prefix": [
-            "CellAria",
+            "CellAria"
         ],
         "body": [
             "role='cell'",
@@ -77,7 +77,7 @@
     },
     "CheckboxAria": {
         "prefix": [
-            "CheckboxAria",
+            "CheckboxAria"
         ],
         "body": [
             "role='checkbox'",
@@ -89,7 +89,7 @@
     },
     "ComboboxAria": {
         "prefix": [
-            "ComboboxAria",
+            "ComboboxAria"
         ],
         "body": [
             "role='combobox'",
@@ -102,7 +102,7 @@
     },
     "DialogAria": {
         "prefix": [
-            "DialogAria",
+            "DialogAria"
         ],
         "body": [
             "role='dialog'",
@@ -127,7 +127,7 @@
     },
     "FeedAria": {
         "prefix": [
-            "FeedAria",
+            "FeedAria"
         ],
         "body": [
             "role='feed'",
@@ -139,7 +139,7 @@
     },
     "FigureAria": {
         "prefix": [
-            "FigureAria",
+            "FigureAria"
         ],
         "body": [
             "role='figure'",
@@ -152,41 +152,41 @@
     },
     "ImageAria": {
         "prefix": [
-            "ImageAria",
+            "ImageAria"
         ],
         "body": [
             "role='img'",
-            "aria-label='$1'", // May be replaced with aria-labelledby if descriptive text is provide in another element within the role.
+            "aria-label='$1'"
         ],
         "description": "Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role."
     },
     "LinkAria": {
         "prefix": [
-            "LinkAria",
+            "LinkAria"
         ],
         "body": [
             "role='link'",
             "tabIndex={0}",
-            "alt='$1'", // Defines the accessible name of the link.
-            "aria-label='$2'", // Defines the accessible name of the link.
+            "alt='$1'",
+            "aria-label='$2'",
             ""
         ],
         "description": "Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label."
     },
     "LoadingAria": {
         "prefix": [
-            "LoadingAria",
+            "LoadingAria"
         ],
         "body": [
-            "role='status'", // Live region role with an implicit aria-live value of polite that notifies assistive technology when content has been updated. Must be present in the DOM before the loading indicator has rendered.
-            "aria-live='polite'", // Used in conjunction with live region role of status for better assistive technology support.
-            "aria-label='Loading'", // Defines the accessible name of the loading indicator if copy is not provided.
+            "role='status'",
+            "aria-live='polite'", 
+            "aria-label='Loading'"
         ],
         "description": "Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed."
     },
     "RadioAria": {
         "prefix": [
-            "RadioAria",
+            "RadioAria"
         ],
         "body": [
             "role='radio'",
@@ -229,7 +229,7 @@
     },
     "SliderAria": {
         "prefix": [
-            "SliderAria",
+            "SliderAria"
         ],
         "body": [
             "role='slider'",
@@ -246,7 +246,7 @@
     },
     "SwitchAria": {
         "prefix": [
-            "SwitchAria",
+            "SwitchAria"
         ],
         "body": [
             "role='switch'",
@@ -258,7 +258,7 @@
     },
     "TextboxAria": {
         "prefix": [
-            "TextboxAria",
+            "TextboxAria"
         ],
         "body": [
             "role='textbox'",
@@ -275,7 +275,7 @@
     },
     "TimerAria":{
         "prefix": [
-            "TimerAria",
+            "TimerAria"
         ],
         "body":[
             "role='timer'",
@@ -283,8 +283,8 @@
             "aria-live='$2",
             "aria-describedby='$3'",
             "aria-roledescription='$4'",
-            "aria-atomic={$5}",
+            "aria-atomic={$5}"
         ],
         "description":"Add `role='timer'` to indicate to assistive technologies that an element is a numerical counter listing the amount of elapsed time from a starting point or the remaining time until an end point. Add `aria-label` to provide the name of the timer. Add `aria-live` to explicitly denote a live region (Elements with the role timer have an implicit aria-live value of off). Add `aria-describedby` to indicate the idref of an element that contains additional instructions for navigating or operating this element. Add `aria-roledescription` o give the timer a more descriptive role text for screen readers to speak. Add `aria-atomic` to set whether or not the screen reader should always present the live region as a whole, even if only part of the region changes."
-    },
+    }
 }
