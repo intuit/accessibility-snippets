@@ -53,6 +53,8 @@
 
 - **TimerAria** - Add `role='timer'` to indicate to assistive technologies that an element is a numerical counter listing the amount of elapsed time from a starting point or the remaining time until an end point. Add `aria-label` to provide the name of the timer. Add `aria-live` to explicitly denote a live region (Elements with the role timer have an implicit aria-live value of off). Add `aria-describedby` to indicate the idref of an element that contains additional instructions for navigating or operating this element. Add `aria-roledescription` o give the timer a more descriptive role text for screen readers to speak. Add `aria-atomic` to set whether or not the screen reader should always present the live region as a whole, even if only part of the region changes.
 
+- **CellAria** - Adds `role='cell'` aria attributes for a cell. A cell is identified as an element in a tabular container that does not contain column or row header information. “cells” are only valid within a construct that simulates a standard data table.
+
 ## Rules of ARIA
 
 - The **first rule** of ARIA is try to `use native HTML elements` instead of aria attributes whenever possible.
