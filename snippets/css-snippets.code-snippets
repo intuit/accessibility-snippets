@@ -26,14 +26,24 @@
         "description": "Detects if user has requested that the web content is presented with less constrast. Note that this is only supported on Safari."
     },
     
-  "darkColorScheme": {
-    "prefix": ["darkColorScheme"],
-    "body": [
-      "",
-      "@media screen and (prefers-color-scheme: dark) {",
-      "\t$0",
-      "}"
-    ],
-    "description": "Adds dark color scheme media query whenever user indicates dark theme in the operating system settings"
-  }
+    "darkColorScheme": {
+        "prefix": ["darkColorScheme"],
+        "body": [
+            "",
+            "@media screen and (prefers-color-scheme: dark) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Adds dark color scheme media query whenever user indicates dark theme in the operating system settings."
+    },
+
+    "lightColorScheme": {
+        "prefix": ["lightColorScheme"],
+        "body": [
+            "@media screen and (prefers-color-scheme: light) {",
+            "\t$0",
+            "}"
+        ],
+        "description": "Adds light color scheme media query whenever user indicates light theme in the operating system settings."
+    }
 }
