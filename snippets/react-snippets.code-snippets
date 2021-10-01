@@ -273,6 +273,18 @@
         ],
         "description": "Use `role='textbox'` on elements that allow input of free-form text. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required."
     },
+    "TabPanelAria": {
+        "prefix": ["TabpanelAria"],
+        "body": [
+          "role='tabpanel'",
+          "aria-controls='$1'",
+          "aria-labelledby='$2'",
+          "aria-details='$3'",
+          "aria-haspopup='$4'",
+          "aria-keyshortcuts='$5'"
+        ],
+        "description": "Use `role='tabpanel'` on elements that contains the content associated with a tab. Add `aria-controls` identifies the element (or elements) whose contents or presence are controlled by the current element (For example a tab controls the display of its associated tab panel). Add `aria-labelledby` Identifies the element (or elements) that labels the current element. Add `aria-details to identify the element that provides a detailed, extended description for the object. Add `aria-haspopup` Indicates the availability and type of interactive popup element, such as menu or dialog. Add `aria-readonly` if the user cannot modify the value. Add `aria-keyshortcuts` Indicates keyboard shortcuts that an author has implemented to activate or give focus to an element."
+      },
     "TimerAria":{
         "prefix": [
             "TimerAria"
