@@ -106,6 +106,10 @@
 - Once installed Navigate to Settings in vscode's preferences menu and toggle **on** `Editor: Accept Suggestion On Enter`
   > Controls whether suggestions should be accepted on Enter, in addition to Tab. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
 
+## Testing
+
+- Run `yarn test` from the project root to run the unit test suites.
+
 ## Contributing
 
 Contributions are welcome! If you encounter problems or have a feature suggestion we'd love to hear about it. Open an issue in the GitHub issue tracker and we will do our best to provide support. Thank you!
@@ -128,7 +132,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://digantakrbanik.codes/"><img src="https://avatars.githubusercontent.com/u/65999534?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diganta Kr Banik</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=developer-diganta" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/raych2"><img src="https://avatars.githubusercontent.com/u/21354238?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rachel Tongco</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=raych2" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/aylinmarie"><img src="https://avatars.githubusercontent.com/u/17627376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aylin</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=aylinmarie" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=aylinmarie" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/jeffreyclu"><img src="https://avatars.githubusercontent.com/u/55211974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeffrey Lu</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jeffreyclu"><img src="https://avatars.githubusercontent.com/u/55211974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeffrey Lu</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Code">💻</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/Saran51"><img src="https://avatars.githubusercontent.com/u/20996426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saran51</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=Saran51" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=Saran51" title="Code">💻</a></td>
   </tr>
   <tr>

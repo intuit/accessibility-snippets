@@ -1,3 +1,27 @@
+# v0.24.3 (Fri Oct 01 2021)
+
+#### 🐛 Bug Fix
+
+- Add tests [#44](https://github.com/intuit/accessibility-snippets/pull/44) ([@jeffreyclu](https://github.com/jeffreyclu))
+
+#### Authors: 1
+
+- Jeffrey Lu ([@jeffreyclu](https://github.com/jeffreyclu))
+
+---
+
+# v0.24.1 (Fri Oct 01 2021)
+
+#### 🐛 Bug Fix
+
+- Sorted snippets in alphabetical order for sort test [#59](https://github.com/intuit/accessibility-snippets/pull/59) ([@syedareehaquasar](https://github.com/syedareehaquasar))
+
+#### Authors: 1
+
+- reeha ([@syedareehaquasar](https://github.com/syedareehaquasar))
+
+---
+
 # v0.23.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
