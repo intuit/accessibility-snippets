@@ -260,4 +260,18 @@
         ],
         "description": "Add `role='searchbox'` to a textbox intended for specifying search criteria."
     },
+    "SeparatorAria": {
+        "prefix": [
+            "SeparatorAria"
+        ],
+        "body": [
+            "role='separator'",
+            "aria-orientation = 'horizontal'",
+            "aria-valuemax={${1:0}}",
+            "aria-valuemin={${2:100}}",
+            "aria-valuenow={${3:50}}",
+            ""
+        ],
+        "description": "Add `role='separator'` to a HR tag. Setting role='separator' automatically sets aria-orientation = 'horizontal'."
+    },
 }
