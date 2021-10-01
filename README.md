@@ -3,7 +3,7 @@
   <h1>accessibility-snippets</h1>
   
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <p>VScode Snippets created to help developers write accessible code.</p>
@@ -118,6 +118,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/aylinmarie"><img src="https://avatars.githubusercontent.com/u/17627376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aylin</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=aylinmarie" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=aylinmarie" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jeffreyclu"><img src="https://avatars.githubusercontent.com/u/55211974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeffrey Lu</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Saran51"><img src="https://avatars.githubusercontent.com/u/20996426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saran51</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=Saran51" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=Saran51" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/tomarviii88"><img src="https://avatars.githubusercontent.com/u/43980170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritika Tomar</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Code">💻</a></td>
   </tr>
 </table>
 
