@@ -214,6 +214,13 @@
         ],
         "body": [
             "role='searchbox'",
+            "aria-activedescendant='$1'",
+            "aria-multiline={$2}",
+            "aria-required={$3}",
+            "aria-readonly={$4}",
+            "aria-labelledby='$5'",
+            "aria-placeholder='$6'",
+            "aria-autocomplete='$7'",
             ""
         ],
         "description": "Add `role='searchbox'` to a textbox intended for specifying search criteria."
