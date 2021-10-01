@@ -1,3 +1,15 @@
+# v0.21.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- fixed Add Aria: separator#31 [#42](https://github.com/intuit/accessibility-snippets/pull/42) ([@syedareehaquasar](https://github.com/syedareehaquasar))
+
+#### Authors: 1
+
+- reeha ([@syedareehaquasar](https://github.com/syedareehaquasar))
+
+---
+
 # v0.19.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
