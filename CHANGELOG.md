@@ -1,3 +1,15 @@
+# v0.24.3 (Fri Oct 01 2021)
+
+#### 🐛 Bug Fix
+
+- Add tests [#44](https://github.com/intuit/accessibility-snippets/pull/44) ([@jeffreyclu](https://github.com/jeffreyclu))
+
+#### Authors: 1
+
+- Jeffrey Lu ([@jeffreyclu](https://github.com/jeffreyclu))
+
+---
+
 # v0.24.1 (Fri Oct 01 2021)
 
 #### 🐛 Bug Fix
