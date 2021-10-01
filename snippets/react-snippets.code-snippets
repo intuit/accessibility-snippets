@@ -49,6 +49,16 @@
         ],
         "description": "Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed."
     },
+    "ImageAria": {
+        "prefix": [
+            "ImageAria",
+        ],
+        "body": [
+            "role='img'",
+            "aria-label='$1'", // May be replaced with aria-labelledby if descriptive text is provide in another element within the role.
+        ],
+        "description": "Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role."
+    },
     "ArticleAria": {
         "prefix": [
             "ArticleAria",
@@ -206,6 +216,20 @@
             "aria-atomic={$5}",
         ],
         "description":"Add `role='timer'` to indicate to assistive technologies that an element is a numerical counter listing the amount of elapsed time from a starting point or the remaining time until an end point. Add `aria-label` to provide the name of the timer. Add `aria-live` to explicitly denote a live region (Elements with the role timer have an implicit aria-live value of off). Add `aria-describedby` to indicate the idref of an element that contains additional instructions for navigating or operating this element. Add `aria-roledescription` o give the timer a more descriptive role text for screen readers to speak. Add `aria-atomic` to set whether or not the screen reader should always present the live region as a whole, even if only part of the region changes."
+    },
+    "CellAria": {
+        "prefix": [
+            "CellAria",
+        ],
+        "body": [
+            "role='cell'",
+            "aria-colspan={$1}",
+            "aria-rowspan={$2}",
+            "aria-colindex={$3}",
+            "aria-rowindex={$4}",
+            ""
+        ],
+        "description": "Adds `role='cell'` aria attributes for a cell. A cell is identified as an element in a tabular container that does not contain column or row header information. “cells” are only valid within a construct that simulates a standard data table."
     },
     "SwitchAria": {
         "prefix": [

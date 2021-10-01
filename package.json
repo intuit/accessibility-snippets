@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "accessibility-snippets",
     "displayName": "accessibility-snippets",
@@ -52,3 +53,59 @@
         ]
     }
 }
+=======
+{
+    "name": "accessibility-snippets",
+    "displayName": "accessibility-snippets",
+    "description": "snippets to help create accessible code",
+    "author": {
+        "name": "Kendall Gassner",
+        "email": "kendall.gassner@yahoo.com"
+    },
+    "version": "0.20.0",
+    "icon": "media/hand-intuit-logo.png",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "css",
+                "path": "./snippets/css-snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/react-snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/react-snippets.code-snippets"
+            }
+        ]
+    },
+    "scripts": {
+        "release": "auto shipit -vv",
+        "labelCheck": "auto pr-check"
+    },
+    "publisher": "accessibility-snippets",
+    "devDependencies": {
+        "@auto-it/all-contributors": "^10.16.6",
+        "@auto-it/vscode": "^10.16.6",
+        "auto": "^10.16.6"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/intuit/accessibility-snippets.git"
+    },
+    "auto": {
+        "plugins": [
+            "npm",
+            "all-contributors",
+            "vscode"
+        ]
+    }
+}
+>>>>>>> d13e82a6c0a1ce2c5e06e1be35a92f8294ed3d4e
