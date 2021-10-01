@@ -3,7 +3,7 @@
   <h1>accessibility-snippets</h1>
   
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <p>VScode Snippets created to help developers write accessible code.</p>
@@ -123,6 +123,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/tomarviii88"><img src="https://avatars.githubusercontent.com/u/43980170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritika Tomar</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/simin4950"><img src="https://avatars.githubusercontent.com/u/38788938?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simin Savani</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=simin4950" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=simin4950" title="Code">💻</a></td>
   </tr>
 </table>
 
