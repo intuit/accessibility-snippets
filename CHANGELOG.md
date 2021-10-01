@@ -1,3 +1,16 @@
+# v0.23.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Add ARIA: Light color scheme css snippet [#55](https://github.com/intuit/accessibility-snippets/pull/55) (amcginnis@rsglab.com [@aylinmarie](https://github.com/aylinmarie))
+
+#### Authors: 2
+
+- Aylin Atkins ([@aylinmarie](https://github.com/aylinmarie))
+- Aylin McGinnis (amcginnis@rsglab.com)
+
+---
+
 # v0.22.1 (Fri Oct 01 2021)
 
 #### 🐛 Bug Fix
