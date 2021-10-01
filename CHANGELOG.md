@@ -1,3 +1,16 @@
+# v0.24.5 (Fri Oct 01 2021)
+
+#### 🐛 Bug Fix
+
+- added tabpanelaria react code snippet [#61](https://github.com/intuit/accessibility-snippets/pull/61) (pamela_sanchezhernandez@intuit.com [@Pamelachristina](https://github.com/Pamelachristina))
+
+#### Authors: 2
+
+- [@Pamelachristina](https://github.com/Pamelachristina)
+- psanchezher (pamela_sanchezhernandez@intuit.com)
+
+---
+
 # v0.24.3 (Fri Oct 01 2021)
 
 #### 🐛 Bug Fix
