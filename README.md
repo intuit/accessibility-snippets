@@ -10,10 +10,12 @@
 </div>
 
 ## Features
- 
+
 ### CSS snippet
 
 - reduced motion - adds a reduced motion snippet with prefix `transition`
+
+- dark-color-scheme - adds dark prefers-color-scheme snippet with prefix `darkColorScheme`
 
 ### React Aria Snippets
 
