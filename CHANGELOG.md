@@ -1,3 +1,15 @@
+# v0.11.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- Added ARIA: Searchbox role [#35](https://github.com/intuit/accessibility-snippets/pull/35) ([@jeffreyclu](https://github.com/jeffreyclu))
+
+#### Authors: 1
+
+- Jeffrey Lu ([@jeffreyclu](https://github.com/jeffreyclu))
+
+---
+
 # v0.1.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
