@@ -72,6 +72,23 @@
         ],
         "description": "Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Elements can be one or more images, code snippets, or other content that puts across information in a different way to a regular flow of text. Add `aria-labelledby` when the text is a concise label. Add `aria-describedby` when the text is a longer description. Add `aria-label` if there is no element containing text that could serve as a label."
     },
+    "MeterAria": {
+        "prefix": [
+            "MeterAria",
+        ],
+        "body": [
+            "role='meter'",
+            "aria-label='$1'",
+            "aria-labelledby='$2'",
+            "aria-describedby='$3'",
+            "aria-valuemax={$4}",
+            "aria-valuemin={$5}",
+            "aria-valuenow={$6}",
+            "aria-valuetext='$7'",
+            ""
+        ],
+        "description": "Add `role='meter'` to identify an element being used as a meter. A meter is a graphical display of a numeric value within a defined range. Each element must have either an `aria-label` or `aria-labelledby`. Add `aria-labelledby` to point to an element with text that describes the meter. Add `aria-valuenow` to indicate the current value of the meter, which is between the `aria-valuemin` and `aria-valuemax`. Add `aria-valuetext` to make the meter value understandable. Add `aria-valuemin` to indicate the minimum value, which is less than `aria-valuemax`. Add `aria-valuemax` to indicate the maximum value, which is greater than `aria-valuemin`. "
+    },
     "ArticleAria": {
         "prefix": [
             "ArticleAria",
