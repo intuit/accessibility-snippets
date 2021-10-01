@@ -18,7 +18,6 @@
             "less-contrast",
         ],
         "body": [
-            "less-contrast: \t$1",
             "@media (prefers-contrast: less) {", 
             "\t$0",
             "}"
