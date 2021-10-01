@@ -14,7 +14,7 @@
 ### CSS snippet
 
 - reduced motion - adds a reduced motion snippet with prefix `transition`
-🚨 Safari Only Queries  🚨 
+  🚨 Safari Only Queries 🚨
 - less-contrast - adds less contrast media snippet with prefix `less-contrast`
 
 - dark-color-scheme - adds dark prefers-color-scheme snippet with prefix `darkColorScheme`
@@ -44,6 +44,10 @@
 - **ImageAria** - Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role.
 
 - **LinkAria** - Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label.
+
+- **ListAria** - Add `role='list'` to elements that act as list.
+
+- **ListItemAria** - Add `role='link'` to elements that act as list-item contained inside the list.
 
 - **LoadingAria** - Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed.
 
