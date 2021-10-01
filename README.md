@@ -19,6 +19,7 @@
 
 🚨 Safari Only Queries  🚨 
 - less-contrast - adds less contrast media snippet with prefix `less-contrast`
+- more-contrast - adds more contrast media snippet with prefix `more-contrast`
 
 ### React Aria Snippets
 
