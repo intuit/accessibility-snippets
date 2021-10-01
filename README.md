@@ -3,7 +3,7 @@
   <h1>accessibility-snippets</h1>
   
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <p>VScode Snippets created to help developers write accessible code.</p>
@@ -41,6 +41,8 @@
 
 - **FeedAria** - Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed.
 
+- **FigureAria** - Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Add `aria-labelledby` when the text is a concise label. Add `aria-describedby` when the text is a longer description. Add `aria-label` if there is no element containing text that could serve as a label.
+
 - **ImageAria** - Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role.
 
 - **LinkAria** - Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label.
@@ -52,6 +54,8 @@
 - **LoadingAria** - Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed.
 
 - **RadioAria** - Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox.
+
+- **SeperatorAria** - Add `role='separator'` to a HR tag.Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. There are set default values 0. 100 and 50 respectively and can be modified. Setting `aria-seperator` automatically sets aria-orientation = 'horizontal'.
 
 - **SearchboxAria** - Add `role='searchbox'` to a textbox intended for specifying search criteria. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required.
 
@@ -128,6 +132,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/tomarviii88"><img src="https://avatars.githubusercontent.com/u/43980170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritika Tomar</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/simin4950"><img src="https://avatars.githubusercontent.com/u/38788938?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simin Savani</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=simin4950" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=simin4950" title="Code">💻</a></td>
+    <td align="center"><a href="https://syedareehaquasar.github.io/Portfolio/"><img src="https://avatars.githubusercontent.com/u/56428237?v=4?s=100" width="100px;" alt=""/><br /><sub><b>reeha</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=syedareehaquasar" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=syedareehaquasar" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/boluwatifeomosowon/"><img src="https://avatars.githubusercontent.com/u/59070723?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Boluwatife Omosowon</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=bolu-tife" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=bolu-tife" title="Code">💻</a></td>
   </tr>
 </table>
 

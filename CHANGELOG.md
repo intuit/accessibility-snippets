@@ -1,3 +1,27 @@
+# v0.22.1 (Fri Oct 01 2021)
+
+#### 🐛 Bug Fix
+
+- Add Aria: Figure Role [#54](https://github.com/intuit/accessibility-snippets/pull/54) ([@bolu-tife](https://github.com/bolu-tife))
+
+#### Authors: 1
+
+- Boluwatife Omosowon ([@bolu-tife](https://github.com/bolu-tife))
+
+---
+
+# v0.21.0 (Fri Oct 01 2021)
+
+#### 🚀 Enhancement
+
+- fixed Add Aria: separator#31 [#42](https://github.com/intuit/accessibility-snippets/pull/42) ([@syedareehaquasar](https://github.com/syedareehaquasar))
+
+#### Authors: 1
+
+- reeha ([@syedareehaquasar](https://github.com/syedareehaquasar))
+
+---
+
 # v0.19.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement

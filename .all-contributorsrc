@@ -98,6 +98,26 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "syedareehaquasar",
+      "name": "reeha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56428237?v=4",
+      "profile": "https://syedareehaquasar.github.io/Portfolio/",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "bolu-tife",
+      "name": "Boluwatife Omosowon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59070723?v=4",
+      "profile": "https://www.linkedin.com/in/boluwatifeomosowon/",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7

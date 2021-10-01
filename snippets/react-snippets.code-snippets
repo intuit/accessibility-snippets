@@ -197,5 +197,28 @@
     "prefix": ["ListItemAria"],
     "body": ["role='listitem'"],
     "description": "Add `role='listitem'` to identify a list item contained inside the list."
+  },
+  "FigureAria": {
+    "prefix": ["FigureAria"],
+    "body": [
+      "role='figure'",
+      "aria-label='$1'",
+      "aria-labelledby='$2'",
+      "aria-describedby='$3'",
+      ""
+    ],
+    "description": "Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Elements can be one or more images, code snippets, or other content that puts across information in a different way to a regular flow of text. Add `aria-labelledby` when the text is a concise label. Add `aria-describedby` when the text is a longer description. Add `aria-label` if there is no element containing text that could serve as a label."
+  },
+  "SeparatorAria": {
+    "prefix": ["SeparatorAria"],
+    "body": [
+      "role='separator'",
+      "aria-orientation = 'horizontal'",
+      "aria-valuemax={${1:0}}",
+      "aria-valuemin={${2:100}}",
+      "aria-valuenow={${3:50}}",
+      ""
+    ],
+    "description": "Add `role='separator'` to a HR tag. Setting role='separator' automatically sets aria-orientation = 'horizontal'."
   }
 }
