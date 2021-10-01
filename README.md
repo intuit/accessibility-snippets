@@ -50,6 +50,8 @@
 
 - **LoadingAria** - Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed.
 
+- **MeterAria** - Add `role='meter'` to identify an element being used as a meter. A meter is a graphical display of a numeric value within a defined range. Each element must have either an `aria-label` or `aria-labelledby`. Add `aria-labelledby` to point to an element with text that describes the meter. Add `aria-valuenow` to indicate the current value of the meter, which is between the `aria-valuemin` and `aria-valuemax`. Add `aria-valuetext` to make the meter value understandable. Add `aria-valuemin` to indicate the minimum value, which is less than `aria-valuemax`. Add `aria-valuemax` to indicate the maximum value, which is greater than `aria-valuemin`. 
+
 - **RadioAria** - Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox.
 
 - **SeperatorAria** - Add `role='separator'` to a HR tag.Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. There are set default values 0. 100 and 50 respectively and can be modified. Setting `aria-seperator` automatically sets aria-orientation = 'horizontal'.
