@@ -48,6 +48,77 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "aylinmarie",
+      "name": "Aylin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17627376?v=4",
+      "profile": "https://github.com/aylinmarie",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "jeffreyclu",
+      "name": "Jeffrey Lu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55211974?v=4",
+      "profile": "https://github.com/jeffreyclu",
+      "contributions": [
+        "doc",
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "Saran51",
+      "name": "Saran51",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20996426?v=4",
+      "profile": "https://github.com/Saran51",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "tomarviii88",
+      "name": "Ritika Tomar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43980170?v=4",
+      "profile": "https://github.com/tomarviii88",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "simin4950",
+      "name": "Simin Savani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38788938?v=4",
+      "profile": "https://github.com/simin4950",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "syedareehaquasar",
+      "name": "reeha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56428237?v=4",
+      "profile": "https://syedareehaquasar.github.io/Portfolio/",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "bolu-tife",
+      "name": "Boluwatife Omosowon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59070723?v=4",
+      "profile": "https://www.linkedin.com/in/boluwatifeomosowon/",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7

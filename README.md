@@ -3,17 +3,22 @@
   <h1>accessibility-snippets</h1>
   
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <p>VScode Snippets created to help developers write accessible code.</p>
 </div>
 
 ## Features
- 
+
 ### CSS snippet
 
 - reduced motion - adds a reduced motion snippet with prefix `transition`
+- dark-color-scheme - adds dark prefers-color-scheme snippet with prefix `darkColorScheme`
+- light-color-scheme - adds light prefers-color-scheme snippet with prefix `lightColorScheme`
+
+🚨 Safari Only Queries  🚨 
+- less-contrast - adds less contrast media snippet with prefix `less-contrast`
 
 ### React Aria Snippets
 
@@ -37,9 +42,19 @@
 
 - **FeedAria** - Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed.
 
+- **FigureAria** - Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Add `aria-labelledby` when the text is a concise label. Add `aria-describedby` when the text is a longer description. Add `aria-label` if there is no element containing text that could serve as a label.
+
+- **ImageAria** - Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role.
+
 - **LinkAria** - Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label.
 
+- **LoadingAria** - Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed.
+
 - **RadioAria** - Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox.
+
+- **SeperatorAria** - Add `role='separator'` to a HR tag.Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. There are set default values 0. 100 and 50 respectively and can be modified. Setting `aria-seperator` automatically sets aria-orientation = 'horizontal'.
+
+- **SearchboxAria** - Add `role='searchbox'` to a textbox intended for specifying search criteria. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required.
 
 - **SliderAria** - Add `role='slider'` to allow users to select from a certain range. Add `aria-orientation` to indicate what direction the slider is oriented in. Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. If the value is not represented by a number add `aria-valuetext` in place of aria-valuenow.
 
@@ -48,6 +63,8 @@
 - **TextboxAria** - Use `role='textbox'` on elements that allow input of free-form text. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required.
 
 - **TimerAria** - Add `role='timer'` to indicate to assistive technologies that an element is a numerical counter listing the amount of elapsed time from a starting point or the remaining time until an end point. Add `aria-label` to provide the name of the timer. Add `aria-live` to explicitly denote a live region (Elements with the role timer have an implicit aria-live value of off). Add `aria-describedby` to indicate the idref of an element that contains additional instructions for navigating or operating this element. Add `aria-roledescription` o give the timer a more descriptive role text for screen readers to speak. Add `aria-atomic` to set whether or not the screen reader should always present the live region as a whole, even if only part of the region changes.
+
+- **CellAria** - Adds `role='cell'` aria attributes for a cell. A cell is identified as an element in a tabular container that does not contain column or row header information. “cells” are only valid within a construct that simulates a standard data table.
 
 ## Rules of ARIA
 
@@ -84,6 +101,10 @@
 - Once installed Navigate to Settings in vscode's preferences menu and toggle **on** `Editor: Accept Suggestion On Enter`
   > Controls whether suggestions should be accepted on Enter, in addition to Tab. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
 
+## Testing
+
+- Run `yarn test` from the project root to run the unit test suites.
+
 ## Contributing
 
 Contributions are welcome! If you encounter problems or have a feature suggestion we'd love to hear about it. Open an issue in the GitHub issue tracker and we will do our best to provide support. Thank you!
@@ -105,6 +126,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/kharrop"><img src="https://avatars.githubusercontent.com/u/24794756?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kelly Harrop</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=kharrop" title="Documentation">📖</a></td>
     <td align="center"><a href="https://digantakrbanik.codes/"><img src="https://avatars.githubusercontent.com/u/65999534?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diganta Kr Banik</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=developer-diganta" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/raych2"><img src="https://avatars.githubusercontent.com/u/21354238?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rachel Tongco</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=raych2" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/aylinmarie"><img src="https://avatars.githubusercontent.com/u/17627376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aylin</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=aylinmarie" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=aylinmarie" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jeffreyclu"><img src="https://avatars.githubusercontent.com/u/55211974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeffrey Lu</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Code">💻</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/Saran51"><img src="https://avatars.githubusercontent.com/u/20996426?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saran51</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=Saran51" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=Saran51" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/tomarviii88"><img src="https://avatars.githubusercontent.com/u/43980170?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritika Tomar</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=tomarviii88" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/simin4950"><img src="https://avatars.githubusercontent.com/u/38788938?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simin Savani</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=simin4950" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=simin4950" title="Code">💻</a></td>
+    <td align="center"><a href="https://syedareehaquasar.github.io/Portfolio/"><img src="https://avatars.githubusercontent.com/u/56428237?v=4?s=100" width="100px;" alt=""/><br /><sub><b>reeha</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=syedareehaquasar" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=syedareehaquasar" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/boluwatifeomosowon/"><img src="https://avatars.githubusercontent.com/u/59070723?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Boluwatife Omosowon</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=bolu-tife" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=bolu-tife" title="Code">💻</a></td>
   </tr>
 </table>
 
