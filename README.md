@@ -3,7 +3,7 @@
   <h1>accessibility-snippets</h1>
   
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <p>VScode Snippets created to help developers write accessible code.</p>
@@ -110,6 +110,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://digantakrbanik.codes/"><img src="https://avatars.githubusercontent.com/u/65999534?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diganta Kr Banik</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=developer-diganta" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/raych2"><img src="https://avatars.githubusercontent.com/u/21354238?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rachel Tongco</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=raych2" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/aylinmarie"><img src="https://avatars.githubusercontent.com/u/17627376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aylin</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=aylinmarie" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jeffreyclu"><img src="https://avatars.githubusercontent.com/u/55211974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeffrey Lu</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=jeffreyclu" title="Code">💻</a></td>
   </tr>
 </table>
 

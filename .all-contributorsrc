@@ -57,6 +57,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jeffreyclu",
+      "name": "Jeffrey Lu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55211974?v=4",
+      "profile": "https://github.com/jeffreyclu",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
