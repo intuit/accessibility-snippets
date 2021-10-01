@@ -1,20 +1,7 @@
 {
-    "DialogAria": {
-        "prefix": [
-            "DialogAria",
-        ],
-        "body": [
-            "role='dialog'",
-            "aria-labelledby='$1'",
-            "aria-describedby='$2'",
-            "aria-modal={true}",
-            ""
-        ],
-        "description": "Adds aria attributes for a dialog. A dialog is a window separate from the rest of the webpage like a modal."
-    },
     "AlertAria": {
         "prefix": [
-            "AlertAria",
+            "AlertAria"
         ],
         "body": [
             "role='alert'",
@@ -26,7 +13,7 @@
     },
     "AlertDialogAria": {
         "prefix": [
-            "AlertDialogAria",
+            "AlertDialogAria"
         ],
         "body": [
             "role='alertdialog'",
@@ -37,31 +24,9 @@
         ],
         "description": "alertDialog - Add `role='alertDialog'` when an alert is urgent and demands immediate attention. Only use alertDialog when the alert message has associated interactive controls."
     },
-    "FeedAria": {
-        "prefix": [
-            "FeedAria",
-        ],
-        "body": [
-            "role='feed'",
-            "aria-labelledby='$1'",
-            "aria-busy={$2}",
-            ""
-        ],
-        "description": "Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed."
-    },
-    "ImageAria": {
-        "prefix": [
-            "ImageAria",
-        ],
-        "body": [
-            "role='img'",
-            "aria-label='$1'", // May be replaced with aria-labelledby if descriptive text is provide in another element within the role.
-        ],
-        "description": "Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role."
-    },
     "ArticleAria": {
         "prefix": [
-            "ArticleAria",
+            "ArticleAria"
         ],
         "body": [
             "role='article'",
@@ -76,7 +41,7 @@
     },
     "BannerAria":{
         "prefix": [
-            "BannerAria",
+            "BannerAria"
         ],
         "body":[
             "role='banner'"
@@ -85,7 +50,7 @@
     },
     "ButtonAria": {
         "prefix": [
-            "ButtonAria",
+            "ButtonAria"
         ],
         "body": [
             "role='button'",
@@ -96,9 +61,23 @@
         ],
         "description": "Add `role='button'` on a clickable element that triggers a response when activated by a user. Add `aria-pressed` when a button can toggle 'on' or 'off'. Add `aria-expanded` if a button triggers another node to expand or collapse."
     },
+    "CellAria": {
+        "prefix": [
+            "CellAria"
+        ],
+        "body": [
+            "role='cell'",
+            "aria-colspan={$1}",
+            "aria-rowspan={$2}",
+            "aria-colindex={$3}",
+            "aria-rowindex={$4}",
+            ""
+        ],
+        "description": "Adds `role='cell'` aria attributes for a cell. A cell is identified as an element in a tabular container that does not contain column or row header information. “cells” are only valid within a construct that simulates a standard data table."
+    },
     "CheckboxAria": {
         "prefix": [
-            "CheckboxAria",
+            "CheckboxAria"
         ],
         "body": [
             "role='checkbox'",
@@ -107,6 +86,32 @@
             ""
         ],
         "description": "Add `role='checkbox'` to a checkable interactive control. Add `aria-checked` to indicate the state of the checkbox."
+    },
+    "ComboboxAria": {
+        "prefix": [
+            "ComboboxAria"
+        ],
+        "body": [
+            "role='combobox'",
+            "aria-haspopup='$1'",
+            "aria-owns='$2'",
+            "aria-expanded={$3}",
+            ""
+        ],
+        "description": "Add `role='combobox'` to a composite widget containing a single-line textbox and another element such as listbox. Add `aria-haspopup` if the combobox contains a popup. Add `aria-expanded` if the combobox expands or collapses a node. Add `aria-owns` to indicate which elements the combobox owns."
+    },
+    "DialogAria": {
+        "prefix": [
+            "DialogAria"
+        ],
+        "body": [
+            "role='dialog'",
+            "aria-labelledby='$1'",
+            "aria-describedby='$2'",
+            "aria-modal={true}",
+            ""
+        ],
+        "description": "Adds aria attributes for a dialog. A dialog is a window separate from the rest of the webpage like a modal."
     },
     "DocumentAria": {
         "prefix": [
@@ -120,33 +125,68 @@
         ],
         "description": "Add `role='document'` to application or other interactive widget role to switch to browse or read mode. Add `aria-expanded` to indicate whether the document is currently expanded or collapsed if the document element is collapsible."
     },
+    "FeedAria": {
+        "prefix": [
+            "FeedAria"
+        ],
+        "body": [
+            "role='feed'",
+            "aria-labelledby='$1'",
+            "aria-busy={$2}",
+            ""
+        ],
+        "description": "Add `role='feed'` to a dynamic list of articles. Add `aria-busy` if articles are being loaded or have been removed from the feed."
+    },
+    "FigureAria": {
+        "prefix": [
+            "FigureAria"
+        ],
+        "body": [
+            "role='figure'",
+            "aria-label='$1'",
+            "aria-labelledby='$2'",
+            "aria-describedby='$3'",
+            ""
+        ],
+        "description": "Add `role='figure'` to identify a figure inside page content where appropriate semantics do not already exist. Elements can be one or more images, code snippets, or other content that puts across information in a different way to a regular flow of text. Add `aria-labelledby` when the text is a concise label. Add `aria-describedby` when the text is a longer description. Add `aria-label` if there is no element containing text that could serve as a label."
+    },
+    "ImageAria": {
+        "prefix": [
+            "ImageAria"
+        ],
+        "body": [
+            "role='img'",
+            "aria-label='$1'"
+        ],
+        "description": "Add `role='img'` to identify a set of content as a single image that has multiple elements. Elements can be images, text, emojis or other content that delivers information visually. Add `aria-label` for descriptive alt text for the image. `aria-label` can be replaced with `aria-labelledby` if descriptive text is provide in another element within the role."
+    },
     "LinkAria": {
         "prefix": [
-            "LinkAria",
+            "LinkAria"
         ],
         "body": [
             "role='link'",
             "tabIndex={0}",
-            "alt='$1'", // Defines the accessible name of the link.
-            "aria-label='$2'", // Defines the accessible name of the link.
+            "alt='$1'",
+            "aria-label='$2'",
             ""
         ],
         "description": "Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label."
     },
     "LoadingAria": {
         "prefix": [
-            "LoadingAria",
+            "LoadingAria"
         ],
         "body": [
-            "role='status'", // Live region role with an implicit aria-live value of polite that notifies assistive technology when content has been updated. Must be present in the DOM before the loading indicator has rendered.
-            "aria-live='polite'", // Used in conjunction with live region role of status for better assistive technology support.
-            "aria-label='Loading'", // Defines the accessible name of the loading indicator if copy is not provided.
+            "role='status'",
+            "aria-live='polite'", 
+            "aria-label='Loading'"
         ],
         "description": "Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed."
     },
     "RadioAria": {
         "prefix": [
-            "RadioAria",
+            "RadioAria"
         ],
         "body": [
             "role='radio'",
@@ -155,93 +195,6 @@
             ""
         ],
         "description": "Add `role='radio'` to a checkable interactive control. Use radio in place of checkbox if only one item in a group can be checked. Add `aria-checked` to indicate the state of the checkbox."
-    },
-    "SliderAria": {
-        "prefix": [
-            "SliderAria",
-        ],
-        "body": [
-            "role='slider'",
-            "tabIndex={0}",
-            "aria-orientation='$1'",
-            "aria-valuemax={$2}",
-            "aria-valuemin={$3}",
-            "aria-valuenow={$4}",
-            "aria-valuetext='$5'",
-            "aria-labelledby='$6'",
-            ""
-        ],
-        "description": "Add `role='slider'` to allow users to select from a certain range. Add `aria-orientation` to indicate what direction the slider is oriented in. Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. If the value is not represented by a number add `aria-valuetext` in place of aria-valuenow."
-    },
-    "ComboboxAria": {
-        "prefix": [
-            "ComboboxAria",
-        ],
-        "body": [
-            "role='combobox'",
-            "aria-haspopup='$1'",
-            "aria-owns='$2'",
-            "aria-expanded={$3}",
-            ""
-        ],
-        "description": "Add `role='combobox'` to a composite widget containing a single-line textbox and another element such as listbox. Add `aria-haspopup` if the combobox contains a popup. Add `aria-expanded` if the combobox expands or collapses a node. Add `aria-owns` to indicate which elements the combobox owns."
-    },
-    "TextboxAria": {
-        "prefix": [
-            "TextboxAria",
-        ],
-        "body": [
-            "role='textbox'",
-            "aria-activedescendant='$1'",
-            "aria-multiline={$2}",
-            "aria-required={$3}",
-            "aria-readonly={$4}",
-            "aria-labelledby='$5'",
-            "aria-placeholder='$6'",
-            "aria-autocomplete='$7'",
-            ""
-        ],
-        "description": "Use `role='textbox'` on elements that allow input of free-form text. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required."
-    },
-    "TimerAria":{
-        "prefix": [
-            "TimerAria",
-        ],
-        "body":[
-            "role='timer'",
-            "aria-label='$1'",
-            "aria-live='$2",
-            "aria-describedby='$3'",
-            "aria-roledescription='$4'",
-            "aria-atomic={$5}",
-        ],
-        "description":"Add `role='timer'` to indicate to assistive technologies that an element is a numerical counter listing the amount of elapsed time from a starting point or the remaining time until an end point. Add `aria-label` to provide the name of the timer. Add `aria-live` to explicitly denote a live region (Elements with the role timer have an implicit aria-live value of off). Add `aria-describedby` to indicate the idref of an element that contains additional instructions for navigating or operating this element. Add `aria-roledescription` o give the timer a more descriptive role text for screen readers to speak. Add `aria-atomic` to set whether or not the screen reader should always present the live region as a whole, even if only part of the region changes."
-    },
-    "CellAria": {
-        "prefix": [
-            "CellAria",
-        ],
-        "body": [
-            "role='cell'",
-            "aria-colspan={$1}",
-            "aria-rowspan={$2}",
-            "aria-colindex={$3}",
-            "aria-rowindex={$4}",
-            ""
-        ],
-        "description": "Adds `role='cell'` aria attributes for a cell. A cell is identified as an element in a tabular container that does not contain column or row header information. “cells” are only valid within a construct that simulates a standard data table."
-    },
-    "SwitchAria": {
-        "prefix": [
-            "SwitchAria",
-        ],
-        "body": [
-            "role='switch'",
-            "aria-checked={$1}",
-            "aria-readonly={$2}",
-            ""
-        ],
-        "description": "Use `role='switch'` on checkboxes that represent an 'on' or 'off' state. Add `aria-checked` to indicate whether component is on or off. Add `aria-required` if the field is required."
     },
     "SearchboxAria" : {
         "prefix": [
@@ -260,4 +213,90 @@
         ],
         "description": "Add `role='searchbox'` to a textbox intended for specifying search criteria."
     },
+    "SeparatorAria": {
+        "prefix": [
+            "SeparatorAria"
+        ],
+        "body": [
+            "role='separator'",
+            "aria-orientation = 'horizontal'",
+            "aria-valuemax={${1:0}}",
+            "aria-valuemin={${2:100}}",
+            "aria-valuenow={${3:50}}",
+            ""
+        ],
+        "description": "Add `role='separator'` to a HR tag. Setting role='separator' automatically sets aria-orientation = 'horizontal'."
+    },
+    "SliderAria": {
+        "prefix": [
+            "SliderAria"
+        ],
+        "body": [
+            "role='slider'",
+            "tabIndex={0}",
+            "aria-orientation='$1'",
+            "aria-valuemax={$2}",
+            "aria-valuemin={$3}",
+            "aria-valuenow={$4}",
+            "aria-valuetext='$5'",
+            "aria-labelledby='$6'",
+            ""
+        ],
+        "description": "Add `role='slider'` to allow users to select from a certain range. Add `aria-orientation` to indicate what direction the slider is oriented in. Add `aria-valuemin` to indicate the minimum value. Add `aria-valuemax` to indicate the maximum value. Add `aria-valuenow` to indicate the current value. If the value is not represented by a number add `aria-valuetext` in place of aria-valuenow."
+    },
+    "SwitchAria": {
+        "prefix": [
+            "SwitchAria"
+        ],
+        "body": [
+            "role='switch'",
+            "aria-checked={$1}",
+            "aria-readonly={$2}",
+            ""
+        ],
+        "description": "Use `role='switch'` on checkboxes that represent an 'on' or 'off' state. Add `aria-checked` to indicate whether component is on or off. Add `aria-required` if the field is required."
+    },
+    "TextboxAria": {
+        "prefix": [
+            "TextboxAria"
+        ],
+        "body": [
+            "role='textbox'",
+            "aria-activedescendant='$1'",
+            "aria-multiline={$2}",
+            "aria-required={$3}",
+            "aria-readonly={$4}",
+            "aria-labelledby='$5'",
+            "aria-placeholder='$6'",
+            "aria-autocomplete='$7'",
+            ""
+        ],
+        "description": "Use `role='textbox'` on elements that allow input of free-form text. Add `aria-activedescendant` to indicate the current active child (for example if the textbox has an autocomplete popup and the focus changes to the popup). Add `aria-autocomplete` to indicate if the textbox will display a list of suggestions. Use `aria-multiline` if the textbox can contain multiple lines of input. Add `aria-placeholder` to give users a hint of what the input should contain. Add `aria-readonly` if the user cannot modify the value. Add `aria-required` if the field is required."
+    },
+    "TabPanelAria": {
+        "prefix": ["TabpanelAria"],
+        "body": [
+          "role='tabpanel'",
+          "aria-controls='$1'",
+          "aria-labelledby='$2'",
+          "aria-details='$3'",
+          "aria-haspopup='$4'",
+          "aria-keyshortcuts='$5'"
+        ],
+        "description": "Use `role='tabpanel'` on elements that contains the content associated with a tab. Add `aria-controls` identifies the element (or elements) whose contents or presence are controlled by the current element (For example a tab controls the display of its associated tab panel). Add `aria-labelledby` Identifies the element (or elements) that labels the current element. Add `aria-details to identify the element that provides a detailed, extended description for the object. Add `aria-haspopup` Indicates the availability and type of interactive popup element, such as menu or dialog. Add `aria-readonly` if the user cannot modify the value. Add `aria-keyshortcuts` Indicates keyboard shortcuts that an author has implemented to activate or give focus to an element."
+      },
+    "TimerAria":{
+        "prefix": [
+            "TimerAria"
+        ],
+        "body":[
+            "role='timer'",
+            "aria-label='$1'",
+            "aria-live='$2",
+            "aria-describedby='$3'",
+            "aria-roledescription='$4'",
+            "aria-atomic={$5}"
+        ],
+        "description":"Add `role='timer'` to indicate to assistive technologies that an element is a numerical counter listing the amount of elapsed time from a starting point or the remaining time until an end point. Add `aria-label` to provide the name of the timer. Add `aria-live` to explicitly denote a live region (Elements with the role timer have an implicit aria-live value of off). Add `aria-describedby` to indicate the idref of an element that contains additional instructions for navigating or operating this element. Add `aria-roledescription` o give the timer a more descriptive role text for screen readers to speak. Add `aria-atomic` to set whether or not the screen reader should always present the live region as a whole, even if only part of the region changes."
+    }
 }
