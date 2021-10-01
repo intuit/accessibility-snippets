@@ -3,7 +3,7 @@
   <h1>accessibility-snippets</h1>
   
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
   <p>VScode Snippets created to help developers write accessible code.</p>
@@ -119,6 +119,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://syedareehaquasar.github.io/Portfolio/"><img src="https://avatars.githubusercontent.com/u/56428237?v=4?s=100" width="100px;" alt=""/><br /><sub><b>reeha</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=syedareehaquasar" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=syedareehaquasar" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/boluwatifeomosowon/"><img src="https://avatars.githubusercontent.com/u/59070723?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Boluwatife Omosowon</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=bolu-tife" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=bolu-tife" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Pamelachristina"><img src="https://avatars.githubusercontent.com/u/46354272?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pamelachristina</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=Pamelachristina" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://radhikadhaipule.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/10150263?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Radhika Dhaipule</b></sub></a><br /><a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=RadhikaHD" title="Documentation">📖</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=RadhikaHD" title="Code">💻</a> <a href="https://github.com/kendall Gassner/accessibility-snippets/commits?author=RadhikaHD" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
