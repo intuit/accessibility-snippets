@@ -1,3 +1,15 @@
+# v0.22.1 (Fri Oct 01 2021)
+
+#### 🐛 Bug Fix
+
+- Add Aria: Figure Role [#54](https://github.com/intuit/accessibility-snippets/pull/54) ([@bolu-tife](https://github.com/bolu-tife))
+
+#### Authors: 1
+
+- Boluwatife Omosowon ([@bolu-tife](https://github.com/bolu-tife))
+
+---
+
 # v0.21.0 (Fri Oct 01 2021)
 
 #### 🚀 Enhancement
