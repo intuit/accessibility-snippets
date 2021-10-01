@@ -27,10 +27,6 @@
             {
                 "language": "javascriptreact",
                 "path": "./snippets/react-snippets.code-snippets"
-            },
-            {
-                "language": "vue",
-                "path": "./snippets/vue-snippets.code-snippets"
             }
         ]
     },
