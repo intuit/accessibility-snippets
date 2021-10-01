@@ -1,0 +1,193 @@
+/*
+Copyright (c) 2017 Sarah Drasner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+{
+    "Nuxt Font": {
+        "prefix": "nfont",
+        "body": [
+            "{ rel: 'stylesheet', href: '${1:https://fonts.googleapis.com/css?family=Montserrat:600|Rufina:700}' }"
+        ],
+        "description": "link to include fonts in a nuxt project, in nuxt-config"
+    },
+    "Nuxt Use CSS File": {
+        "prefix": "ncss",
+        "body": [
+            "css: ['assets/${1:normalize.css}'],"
+        ],
+        "description": "link to css assets such as normalize"
+    },
+    "Nuxt Async": {
+        "prefix": "nasyncdataaxios",
+        "body": [
+            "async asyncData ({ ${1:$axios}, { ${2:params} }) {",
+            "\tconst data = await $axios.$get(`${3:endpoint/${params.slug}}`)",
+            "\treturn { data }",
+            "},"
+        ],
+        "description": "Nuxt asyncData with Axios module"
+    },
+    "Nuxt Fetch": {
+        "prefix": "nfetch",
+        "body": [
+            "async fetch ({ store, ${1:params} }) {",
+            "\tlet { data } = await fetch('${2:endpoint}').then(res => res.json())",
+            "\tstore.commit('${3:MUTATION_TYPE}', data)",
+            "},"
+        ],
+        "description": "Nuxt Fetch"
+    },
+    "Nuxt Fetch with Axios": {
+        "prefix": "nfetchaxios",
+        "body": [
+            "async fetch () {",
+            "\tlet this.data = await this.$axios.$get('${1:endpoint/${this.$route.params.slug}}')",
+            "},"
+        ],
+        "description": "Nuxt Fetch with Axios module"
+    },
+    "Nuxt Route Params": {
+        "prefix": "nparam",
+        "body": [
+            "this.$route.params.${1:id}"
+        ],
+        "description": "Nuxt Route Params"
+    },
+    "Nuxt Head": {
+        "prefix": "nhead",
+        "body": [
+            "head () {",
+            "\treturn {",
+            "\t\ttitle: ${1:'Page Title'},",
+            "\t\tmeta: [",
+            "\t\t\t// hid is used as unique identifier. Do not use `vmid` for it as it will not work",
+            "\t\t\t{ hid: 'description', name: 'description', content: ${2:'My custom description'} }",
+            "\t\t]",
+            "\t}",
+            "},"
+        ],
+        "description": "Nuxt Head"
+    },
+    "Vue Router": {
+        "prefix": "vrouter",
+        "body": [
+            "import Vue from 'vue';",
+            "import VueRouter from 'vue-router';",
+            "",
+            "Vue.use(VueRouter);",
+            "",
+            "export const router = new VueRouter({",
+            "\tbase: '/',",
+            "\tmode: 'history',",
+            "\troutes: [",
+            "\t\t{ path: '/path', component: component }",
+            "\t]",
+            "});"
+        ],
+        "description": "Base for Vue Router"
+    },
+    "Vue Router scrollBehavior": {
+        "prefix": "vscrollbehavior",
+        "body": [
+            "scrollBehavior(to, from, savedPosition) {",
+            "\tif(savedPosition) {",
+            "\t\treturn savedPosition;",
+            "\t} else {",
+            "\t\treturn { x: 0, y: 0 };",
+            "\t}",
+            "},"
+        ],
+        "description": "Vue Router scrollBehavior"
+    },
+    "Vue Router beforeEach": {
+        "prefix": "vbeforeeach",
+        "body": [
+            "router.beforeEach((to, from, next) => {",
+            "\t${1:next();}",
+            "});"
+        ],
+        "description": "Vue Router global guards beforeEach"
+    },
+    "Vue Router beforeResolve": {
+        "prefix": "vbeforeresolve",
+        "body": [
+            "router.beforeResolve((to, from, next) => {",
+            "\t${1:next();}",
+            "});"
+        ],
+        "description": "Vue Router global guards beforeResolve"
+    },
+    "Vue Router afterEach": {
+        "prefix": "vaftereach",
+        "body": [
+            "router.afterEach((to, from) => {",
+            "\t",
+            "});"
+        ],
+        "description": "Vue Router global guards afterEach"
+    },
+    "Vue Router beforeEnter": {
+        "prefix": "vbeforeenter",
+        "body": [
+            "beforeEnter(to, from, next) {",
+            "\t${1:next();}",
+            "},"
+        ],
+        "description": "Vue Router per-route guard beforeEnter"
+    },
+    "Vue Router beforeRouteEnter": {
+        "prefix": "vbeforerouteenter",
+        "body": [
+            "beforeRouteEnter(to, from, next) {",
+            "\tnext(vm => {${1:}});",
+            "},"
+        ],
+        "description": "Vue Router component guards beforeRouteEnter"
+    },
+    "Vue Router beforeRouteUpdate": {
+        "prefix": "vbeforerouteupdate",
+        "body": [
+            "beforeRouteUpdate(to, from, next) {",
+            "\t${1:next();}",
+            "},"
+        ],
+        "description": "Vue Router component guards beforeRouteUpdate"
+    },
+    "Vue Router beforeRouteLeave": {
+        "prefix": "vbeforerouteleave",
+        "body": [
+            "beforeRouteLeave(to, from, next) {",
+            "\t${1:next();}",
+            "},"
+        ],
+        "description": "Vue Router component guards beforeRouteLeave"
+    },
+    "Vue Router Route": {
+        "prefix": "vroute-named",
+        "body": [
+            "{",
+            "\tpath: '${1:pathName}',",
+            "\tname: '${2:routeName}',",
+            "\tcomponent: () => import('./${3:pathToComponent}'),",
+            "},"
+        ],
+        "description": "Vue Router route with per route code-splitting"
+    }
+}
