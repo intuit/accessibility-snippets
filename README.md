@@ -35,7 +35,7 @@
 
 - **ComboboxAria** - Add `role='combobox'` to a composite widget containing a single-line textbox and another element such as listbox. Add `aria-haspopup` if the combobox contains a popup. Add `aria-expanded` if the combobox expands or collapses a node. Add `aria-owns` to indicate which elements the combobox owns.
 
-**CommentAria** - Add `role=comment` to comment containing details.g
+**CommentAria** - Add `role=comment` to a comment or reaction to some content on the page.
 
 - **DialogAria** - Add `role='dialog'` to a window separate from the rest of the webpage like a modal.
 
