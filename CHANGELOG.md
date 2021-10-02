@@ -1,3 +1,15 @@
+# v0.24.7 (Fri Oct 01 2021)
+
+#### 🐛 Bug Fix
+
+- Making README.md more readable [#51](https://github.com/intuit/accessibility-snippets/pull/51) ([@RadhikaHD](https://github.com/RadhikaHD))
+
+#### Authors: 1
+
+- Radhika Dhaipule ([@RadhikaHD](https://github.com/RadhikaHD))
+
+---
+
 # v0.24.5 (Fri Oct 01 2021)
 
 #### 🐛 Bug Fix
