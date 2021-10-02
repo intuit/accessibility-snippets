@@ -128,6 +128,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "RadhikaHD",
+      "name": "Radhika Dhaipule",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10150263?v=4",
+      "profile": "https://radhikadhaipule.wordpress.com/",
+      "contributions": [
+        "doc",
+        "code",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7
