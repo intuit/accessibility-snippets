@@ -17,6 +17,7 @@
 | :-------------| :---------------|:---------------|
 | reduced motion     |  Adds a reduced motion snippet with prefix `transition` | N/A|
 | less-contrast    |  Adds less contrast media snippet with prefix `less-contrast` | 🚨 Safari Only Queries  🚨  |
+| more-contrast    |  Adds more contrast media snippet with prefix `more-contrast` | 🚨 Safari Only Queries  🚨  |
 | dark-color-scheme      |  Adds dark prefers-color-scheme snippet with prefix `darkColorScheme` | N/A |
 | light-color-scheme     |  Adds light prefers-color-scheme snippet with prefix `lightColorScheme`| N/A |
 
