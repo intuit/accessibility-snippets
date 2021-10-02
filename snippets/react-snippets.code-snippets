@@ -214,7 +214,10 @@
         ],
         "body": [
             "role='comment'",
+            "id={$1}",
+            "role='mark'",
             "aria-details={$1}"
-        ]
+        ],
+        "description": "Use `role=mark` to mark the section that is commented and add `aria-details` to include the ID of the comment. Also include `role=comment` on comment along with `id` to indicate comment ID."
     }
 }
