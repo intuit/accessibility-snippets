@@ -1,3 +1,19 @@
+# v0.25.0 (Mon Oct 04 2021)
+
+#### 🚀 Enhancement
+
+- Added MeterAria [#62](https://github.com/intuit/accessibility-snippets/pull/62) ([@bolu-tife](https://github.com/bolu-tife))
+
+#### 📝 Documentation
+
+- Update README.md for MeterAria description [#64](https://github.com/intuit/accessibility-snippets/pull/64) ([@bolu-tife](https://github.com/bolu-tife))
+
+#### Authors: 1
+
+- Boluwatife Omosowon ([@bolu-tife](https://github.com/bolu-tife))
+
+---
+
 # v0.24.7 (Fri Oct 01 2021)
 
 #### 🐛 Bug Fix
