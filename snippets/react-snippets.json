@@ -179,14 +179,14 @@
         ],
         "body": [
             "role='status'",
-            "aria-live='polite'", 
+            "aria-live='polite'",
             "aria-label='Loading'"
         ],
         "description": "Add `role='status'` and `aria-live='polite'` to element wrapping a loading spinner or indicator. The live region must be present in the DOM before the loading indicator has rendered. Add `aria-label='Loading'` to loading indicator if no other text element or content is passed."
     },
     "MeterAria": {
         "prefix": [
-            "MeterAria",
+            "MeterAria"
         ],
         "body": [
             "role='meter'",
