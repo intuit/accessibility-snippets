@@ -13,7 +13,7 @@
         "description": "Adds reduced motion media query anytime transition is added to css file"
     },
 
-    "contrast": {
+    "lessContrast": {
         "prefix": [
             "less-contrast"
         ],
@@ -24,6 +24,19 @@
 
         ],
         "description": "Detects if user has requested that the web content is presented with less constrast. Note that this is only supported on Safari."
+    },
+
+    "moreContrast": {
+        "prefix": [
+            "more-contrast"
+        ],
+        "body": [
+            "@media (prefers-contrast: more) {", 
+            "\t$0",
+            "}"
+
+        ],
+        "description": "Detects if user has requested that the web content is presented with more constrast. Note that this is only supported on Safari."
     },
     
     "darkColorScheme": {
