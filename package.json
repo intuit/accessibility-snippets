@@ -18,15 +18,15 @@
         "snippets": [
             {
                 "language": "css",
-                "path": "./snippets/css-snippets.code-snippets"
+                "path": "./snippets/css-snippets.json"
             },
             {
                 "language": "typescriptreact",
-                "path": "./snippets/react-snippets.code-snippets"
+                "path": "./snippets/react-snippets.json"
             },
             {
                 "language": "javascriptreact",
-                "path": "./snippets/react-snippets.code-snippets"
+                "path": "./snippets/react-snippets.json"
             }
         ]
     },
