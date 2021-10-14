@@ -140,6 +140,15 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "DianaTdr",
+      "name": "Diana Toader",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35532678?v=4",
+      "profile": "https://github.com/DianaTdr",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7

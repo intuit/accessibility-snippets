@@ -1,3 +1,15 @@
+# v0.26.1 (Fri Oct 08 2021)
+
+#### 🐛 Bug Fix
+
+- chore(run-tests): run tests in circle ci [#65](https://github.com/intuit/accessibility-snippets/pull/65) (dianatoader@Dianas-MacBook-Pro.local)
+
+#### Authors: 1
+
+- Diana Toader ([@DianaTdr](https://github.com/DianaTdr))
+
+---
+
 # v0.25.0 (Mon Oct 04 2021)
 
 #### 🚀 Enhancement

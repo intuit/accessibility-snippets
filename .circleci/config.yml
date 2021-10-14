@@ -42,6 +42,15 @@ jobs:
           name: Check SemVer label
           command: yarn labelCheck --url $CIRCLE_BUILD_URL
 
+  test:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/accessibility-snippets
+      - run:
+          name: Test
+          command: yarn test
+
   release:
     <<: *defaults
     steps:
@@ -61,7 +70,9 @@ workflows:
       - checkLabels:
           requires:
             - install
-
-      - release:
+      - test:
           requires:
             - checkLabels
+      - release:
+          requires:
+            - test
