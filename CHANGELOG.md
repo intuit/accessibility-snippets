@@ -1,3 +1,15 @@
+# v0.27.0 (Wed Oct 27 2021)
+
+#### 🚀 Enhancement
+
+- Added ARIA: List [#57](https://github.com/intuit/accessibility-snippets/pull/57) ([@tomarviii88](https://github.com/tomarviii88))
+
+#### Authors: 1
+
+- Ritika Tomar ([@tomarviii88](https://github.com/tomarviii88))
+
+---
+
 # v0.26.1 (Fri Oct 08 2021)
 
 #### 🐛 Bug Fix
