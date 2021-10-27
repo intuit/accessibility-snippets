@@ -173,6 +173,16 @@
         ],
         "description": "Add `role='link'` to elements that act as hyperlinks. Ensure the link can be navigated to via the keyboard. If the link role is added to an image add `alt` text. Add an `aria-label` if the link does not provide a descriptive text label."
     },
+    "ListAria": {
+        "prefix": ["ListAria"],
+        "body": ["role='list'"],
+        "description": "Add `role='list'` to identify a list of items."
+    },
+    "ListItemAria": {
+        "prefix": ["ListItemAria"],
+        "body": ["role='listitem'"],
+        "description": "Add `role='listitem'` to identify a list item contained inside the list."
+    },
     "LoadingAria": {
         "prefix": [
             "LoadingAria"
